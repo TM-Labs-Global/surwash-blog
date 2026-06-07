@@ -1,0 +1,87 @@
+:root {
+  /* Neutral Color Palette */
+  --color-neutral-25: #fcfcfc;
+  --color-neutral-50: #f9fafb;
+  --color-neutral-100: #f3f4f6;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-300: #d1d5db;
+  --color-neutral-400: #9ca3af;
+  --color-neutral-500: #6b7280;
+  --color-neutral-600: #4b5563;
+  --color-neutral-700: #374151;
+  --color-neutral-800: #1f2937;
+  --color-neutral-900: #111827;
+  --color-neutral-950: #030712;
+
+  /* SURWASH Primitive Brand Palette */
+  --color-surwash-blue: #1B9FD4;
+  --color-surwash-navy: #1A3A5C;
+  --color-surwash-orange: #E8762B;
+  --color-surwash-green: #2E8B4A;
+  --color-surwash-grey: #5A6472;
+
+  /* Primary Brand - SURWASH Blue base */
+  --color-primary-25: #f7fcfe;
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: var(--color-surwash-blue);
+  /* Main Brand Color */
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+  --color-primary-800: #075985;
+  --color-primary-900: #0c4a6e;
+  --color-primary-950: #082f49;
+
+  /* Secondary - SURWASH Navy base */
+  --color-secondary-50: #f0f4f8;
+  --color-secondary-100: #d9e2ec;
+  --color-secondary-200: #bcccdc;
+  --color-secondary-300: #9fb3c8;
+  --color-secondary-400: #627d98;
+  --color-secondary-500: var(--color-surwash-navy);
+  --color-secondary-600: #102a43;
+  --color-secondary-700: #0b1b29;
+  --color-secondary-800: #060d14;
+  --color-secondary-900: #03060a;
+  --color-secondary-950: #010204;
+
+  /* Semantic - Success (Green) */
+  --color-success-50: #f0fdf4;
+  --color-success-100: #dcfce7;
+  --color-success-200: #bbf7d0;
+  --color-success-500: var(--color-surwash-green);
+  --color-success-600: #246e3a;
+  --color-success-700: #15803d;
+
+  /* Semantic - Warning (Amber/Orange) */
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-200: #fde68a;
+  --color-warning-500: var(--color-surwash-orange);
+  --color-warning-600: #cf6420;
+  --color-warning-700: #b45309;
+
+  /* Semantic - Error (Red) */
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-200: #fecaca;
+  --color-error-500: #ef4444;
+  --color-error-600: #dc2626;
+  --color-error-700: #b91c1c;
+
+  /* Semantic - Info (Blue) */
+  --color-info-50: #eff6ff;
+  --color-info-100: #dbeafe;
+  --color-info-200: #bfdbfe;
+  --color-info-500: var(--color-surwash-blue);
+  --color-info-600: #0284c7;
+  --color-info-700: #0369a1;
+
+  /* Base */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-transparent: transparent;
+}

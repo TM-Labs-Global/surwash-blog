@@ -1,0 +1,77 @@
+import React from 'react';
+import { PortableText } from '@portabletext/react';
+
+interface RichTextRendererProps {
+  content: any;
+}
+
+export default function RichTextRenderer({ content }: RichTextRendererProps) {
+  if (!content) return null;
+
+  // Custom components to style Portable Text blocks to align with brand guidelines
+  const components = {
+    block: {
+      h1: ({ children }: any) => (
+        <h1 className="text-3xl sm:text-4xl font-bold font-display text-[var(--color-secondary-500)] mt-8 mb-4 border-l-4 border-[var(--color-surwash-blue)] pl-4 leading-tight">
+          {children}
+        </h1>
+      ),
+      h2: ({ children }: any) => (
+        <h2 className="text-2xl sm:text-3xl font-bold font-display text-[var(--color-secondary-500)] mt-8 mb-4 border-l-4 border-[var(--color-surwash-blue)] pl-4 leading-tight">
+          {children}
+        </h2>
+      ),
+      h3: ({ children }: any) => (
+        <h3 className="text-xl sm:text-2xl font-bold font-display text-[var(--color-secondary-500)] mt-6 mb-3 leading-snug">
+          {children}
+        </h3>
+      ),
+      normal: ({ children }: any) => (
+        <p className="text-base text-[var(--color-surwash-grey)] leading-relaxed mb-6 font-sans">
+          {children}
+        </p>
+      ),
+      blockquote: ({ children }: any) => (
+        <blockquote className="border-l-4 border-[var(--color-surwash-blue)] pl-4 italic text-[var(--color-neutral-600)] bg-[var(--color-neutral-50)] py-3 pr-4 my-6 rounded-r font-sans">
+          {children}
+        </blockquote>
+      ),
+    },
+    list: {
+      bullet: ({ children }: any) => (
+        <ul className="list-disc pl-6 mb-6 text-[var(--color-surwash-grey)] font-sans space-y-2">
+          {children}
+        </ul>
+      ),
+      number: ({ children }: any) => (
+        <ol className="list-decimal pl-6 mb-6 text-[var(--color-surwash-grey)] font-sans space-y-2">
+          {children}
+        </ol>
+      ),
+    },
+    marks: {
+      strong: ({ children }: any) => <strong className="font-bold text-[var(--color-secondary-500)]">{children}</strong>,
+      em: ({ children }: any) => <em className="italic">{children}</em>,
+      link: ({ children, value }: any) => {
+        const rel = !value.href.startsWith('/') ? 'noreferrer noopener' : undefined;
+        const target = !value.href.startsWith('/') ? '_blank' : undefined;
+        return (
+          <a
+            href={value.href}
+            rel={rel}
+            target={target}
+            className="text-[var(--color-primary-500)] hover:text-[var(--color-primary-600)] underline font-semibold transition-colors duration-150"
+          >
+            {children}
+          </a>
+        );
+      },
+    },
+  };
+
+  return (
+    <div className="w-full max-w-none">
+      <PortableText value={content} components={components} />
+    </div>
+  );
+}

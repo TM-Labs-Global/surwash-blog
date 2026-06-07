@@ -1,0 +1,91 @@
+:root {
+  /* Backgrounds */
+  --bg-page: var(--color-neutral-50);
+  --bg-surface: var(--color-white);
+  --bg-surface-hover: var(--color-neutral-50);
+  --bg-surface-active: var(--color-neutral-100);
+  --bg-surface-elevated: var(--color-white);
+
+  --bg-primary: var(--color-primary-500);
+  --bg-primary-hover: var(--color-primary-600);
+  --bg-primary-subtle: var(--color-primary-50);
+
+  --bg-secondary: var(--color-secondary-500);
+  --bg-secondary-hover: var(--color-secondary-600);
+  --bg-secondary-subtle: var(--color-secondary-50);
+
+  --bg-danger: var(--color-error-500);
+  --bg-danger-hover: var(--color-error-600);
+  --bg-danger-subtle: var(--color-error-50);
+
+  /* Action Colors */
+  --color-action-primary: var(--color-surwash-blue);
+  --color-action-primary-hover: var(--color-primary-600);
+  --color-action-secondary: var(--color-surwash-navy);
+  --color-action-secondary-hover: var(--color-secondary-600);
+  --color-action-tertiary: var(--color-surwash-orange);
+  --color-action-tertiary-hover: var(--color-warning-600);
+  --color-action-disabled: var(--color-neutral-200);
+
+  --foreground: var(--text-base);
+  --background: var(--bg-page);
+
+  /* Text Colors */
+  --text-base: var(--color-surwash-navy);
+  --text-primary: var(--color-surwash-blue);
+  --text-secondary: var(--color-surwash-grey);
+  --text-tertiary: var(--color-neutral-400);
+  --text-disabled: var(--color-neutral-300);
+
+  --text-brand: var(--color-primary-600);
+  --text-inverse: var(--color-white);
+
+  --text-success: var(--color-success-700);
+  --text-warning: var(--color-warning-700);
+  --text-error: var(--color-error-700);
+  --text-info: var(--color-info-700);
+
+  /* Borders */
+  --border-default: var(--color-neutral-200);
+  --border-subtle: var(--color-neutral-100);
+  --border-strong: var(--color-neutral-300);
+  --border-focus: var(--color-primary-300);
+
+  --border-error: var(--color-error-300);
+  --border-success: var(--color-success-300);
+
+  /* Component Specific Semantics (mapped generally) */
+  --link-color: var(--color-primary-600);
+  --link-hover: var(--color-primary-700);
+
+  --shadow-card: var(--shadow-sm);
+  --shadow-popover: var(--shadow-lg);
+
+  --radius-card: var(--radius-lg);
+  --radius-button: var(--radius-md);
+  --radius-input: var(--radius-md);
+}
+
+/* Disable dark mode overrides to maintain high-contrast light-mode brand guidelines across all OS settings */
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-page: var(--color-neutral-950);
+    --bg-surface: var(--color-neutral-900);
+    --bg-surface-hover: var(--color-neutral-800);
+    --bg-surface-active: var(--color-neutral-700);
+
+    --text-base: var(--color-neutral-50);
+    --text-primary: var(--color-primary-300);
+    --text-secondary: var(--color-neutral-400);
+    --text-tertiary: var(--color-neutral-500);
+
+    --border-default: var(--color-neutral-800);
+    --border-subtle: var(--color-neutral-900);
+    --border-strong: var(--color-neutral-700);
+
+    --bg-primary-subtle: var(--color-primary-950);
+    --bg-danger-subtle: var(--color-error-950);
+  }
+}
+*/
