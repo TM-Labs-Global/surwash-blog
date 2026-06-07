@@ -26,6 +26,8 @@ export async function POST(request: Request) {
     // Force cache purge over specific path boundaries
     revalidatePath(`/blog/${dynamicSlug}`);
     revalidatePath('/blog');
+    revalidatePath('/');
+    revalidatePath('/publications');
 
     return NextResponse.json({
       revalidated: true,
