@@ -240,8 +240,6 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             <div className="flex gap-6 text-sm text-[var(--color-secondary-100)]">
               <a href="/" className="hover:underline">Blog</a>
               <a href="/publications" className="hover:underline">Publications</a>
-              <a href="/design-system" className="hover:underline">Design System</a>
-              <a href="/docs" className="hover:underline">Documentation</a>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 text-xs text-[var(--color-secondary-200)]">
