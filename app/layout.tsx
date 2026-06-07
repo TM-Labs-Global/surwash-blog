@@ -14,9 +14,66 @@ const unbounded = Unbounded({
   weight: ["400", "500", "600", "700"],
 });
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://surwash-blog-website.vercel.app';
+
 export const metadata: Metadata = {
-  title: "Surwash Blog",
-  description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog",
+  metadataBase: new URL(baseUrl),
+  title: {
+    default: "SURWASH Program Blog",
+    template: "%s | SURWASH Program Blog",
+  },
+  description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog. Real-time updates, field assessments, and strategic briefings from Nigeria.",
+  keywords: [
+    "WASH",
+    "Water Supply",
+    "Sanitation",
+    "Hygiene",
+    "SURWASH",
+    "Nigeria",
+    "World Bank",
+    "Federal Ministry of Water Resources",
+    "Clean Water",
+    "Urban Water",
+    "Rural Water"
+  ],
+  authors: [{ name: "Federal Ministry of Water Resources, Nigeria" }],
+  creator: "Federal Ministry of Water Resources, Nigeria",
+  publisher: "Federal Ministry of Water Resources, Nigeria",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    url: baseUrl,
+    siteName: "SURWASH Program Blog",
+    title: "SURWASH Program Blog",
+    description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog. Real-time updates, field assessments, and strategic briefings from Nigeria.",
+    images: [
+      {
+        url: "/brand/logo/SVG/SURWASH Logo.svg",
+        width: 800,
+        height: 600,
+        alt: "SURWASH Program Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SURWASH Program Blog",
+    description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog. Real-time updates, field assessments, and strategic briefings from Nigeria.",
+    images: ["/brand/logo/SVG/SURWASH Logo.svg"],
+  },
 };
 
 export default function RootLayout({

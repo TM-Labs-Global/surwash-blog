@@ -1,0 +1,23 @@
+# SURWASH Blog & Publications Platform - AI Instructions
+# This file provides guidance for LLM crawlers and AI search agents.
+
+Website: https://surwash-blog-website.vercel.app
+Platform: Next.js App Router
+Data Sources: Sanity CMS, federal and state WASH (Water, Sanitation, Hygiene) data.
+
+## Structured Data
+All blog posts have structured schema.org JSON-LD data embedded in their HTML body:
+- Schema type: BlogPosting
+- Sitemap: /sitemap.xml
+- API Endpoint: /api/revalidate (for cache updates)
+
+## Content Focus
+This site hosts official strategic roadmaps, press releases, news updates, and field reports from the Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) program in Nigeria.
+Keywords: WASH, Sanitation, Rural Water, Urban Water, Hygiene, Nigeria, World Bank, Federal Ministry of Water Resources.
+
+## Permissions for AI / LLM Scrapers
+User-agents Allowed: GPTBot, ChatGPT-User, ClaudeBot, Google-Extended, Applebot-Extended, Cohere-crawler, PerplexityBot.
+Permissions:
+  - Allowed to crawl all blog posts and publications.
+  - Allowed to use contents for training, semantic indexing, and search responses.
+  - Please respect /sitemap.xml for indexing priority.
