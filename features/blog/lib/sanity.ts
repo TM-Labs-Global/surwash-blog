@@ -46,7 +46,7 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
       ? `*[_type == "post"] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured, "comments": *[_type == "comment" && post._ref == ^._id && approved == true] | order(_createdAt asc) { _id, name, _createdAt, comment } }`
       : `*[_type == "post" && stateScope == $stateScope] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured, "comments": *[_type == "comment" && post._ref == ^._id && approved == true] | order(_createdAt asc) { _id, name, _createdAt, comment } }`;
     
-    const results = await sanityClient.fetch(query, { stateScope });
+    const results = await sanityClient.fetch(query, { stateScope }, { next: { tags: ['posts'] } });
     return results || [];
   } catch (error) {
     console.error('Sanity query failed:', error);
@@ -63,7 +63,7 @@ export const getPostBySlug = async (slug: string): Promise<Post | null> => {
 
   try {
     const query = `*[_type == "post" && slug.current == $slug][0] { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured, "comments": *[_type == "comment" && post._ref == ^._id && approved == true] | order(_createdAt asc) { _id, name, _createdAt, comment } }`;
-    const result = await sanityClient.fetch(query, { slug });
+    const result = await sanityClient.fetch(query, { slug }, { next: { tags: ['posts', `post-${slug}`] } });
     return result || null;
   } catch (error) {
     console.error('Sanity query failed:', error);
@@ -80,7 +80,7 @@ export const getAllPostSlugs = async (): Promise<string[]> => {
 
   try {
     const query = `*[_type == "post" && defined(slug.current)][].slug.current`;
-    const results = await sanityClient.fetch(query);
+    const results = await sanityClient.fetch(query, {}, { next: { tags: ['posts'] } });
     return results || [];
   } catch (error) {
     console.error('Sanity query failed:', error);

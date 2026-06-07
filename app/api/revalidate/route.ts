@@ -1,4 +1,4 @@
-import { revalidatePath } from 'next/cache';
+import { revalidatePath, revalidateTag } from 'next/cache';
 import { NextResponse } from 'next/server';
 
 export async function POST(request: Request) {
@@ -23,7 +23,11 @@ export async function POST(request: Request) {
       );
     }
 
-    // Force cache purge over specific path boundaries
+    // Purge cached data fetch keys
+    revalidateTag('posts', {});
+    revalidateTag(`post-${dynamicSlug}`, {});
+
+    // Force static page rebuild over path boundaries
     revalidatePath(`/blog/${dynamicSlug}`);
     revalidatePath('/blog');
     revalidatePath('/');
