@@ -132,7 +132,7 @@ export function parseTypographyTokens(cssContent: string) {
       weight,
       lineHeight,
       sample: name.includes("Hero")
-        ? "SURWASH Program Blog"
+        ? "SURWASH Program Newsletter"
         : "The quick brown fox jumps over the lazy dog",
       font: fontVar.includes("unbounded") ? "unbounded" : "fira-sans",
       note: fontVar.includes("unbounded") ? "Unbounded - Accent & Data only" : "Fira Sans",

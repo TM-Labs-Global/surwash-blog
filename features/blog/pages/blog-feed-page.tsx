@@ -11,7 +11,7 @@ export default async function BlogFeedPage() {
   return (
     <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col font-sans">
       {/* Premium Header */}
-      <Header activeLink="blog" />
+      <Header activeLink="newsletter" />
 
       {/* Scrolling News Ticker Marquee */}
       <LatestNewsTicker posts={posts} />
@@ -24,7 +24,7 @@ export default async function BlogFeedPage() {
               <span>National & Regional Updates</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-black text-[#1A3A5C] tracking-tight font-display mb-3">
-              SURWASH Blogs
+              Re-introducing SURWASH
             </h1>
             <p className="text-sm sm:text-base text-surwash-grey leading-relaxed">
               Real-time updates, field assessments, and strategic briefings from the Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) program across Nigeria.
@@ -34,7 +34,7 @@ export default async function BlogFeedPage() {
       </section>
 
       {/* Interactive Client Blog Area */}
-      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center text-xs text-surwash-grey">Loading blog feed...</div>}>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center text-xs text-surwash-grey">Loading newsletter feed...</div>}>
         <BlogFeedClient initialPosts={posts} />
       </Suspense>
 
@@ -50,7 +50,7 @@ export default async function BlogFeedPage() {
               />
             </div>
             <div className="flex gap-6 text-sm text-[var(--color-secondary-100)]">
-              <a href="/" className="hover:underline">Blog</a>
+              <a href="/" className="hover:underline">Newsletter</a>
               <a href="/publications" className="hover:underline">Publications</a>
             </div>
           </div>

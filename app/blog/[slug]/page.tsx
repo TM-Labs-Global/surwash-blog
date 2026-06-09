@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!post) {
     return {
-      title: 'Article Not Found | SURWASH Program Blog',
-      description: 'The requested blog post could not be found.',
+      title: 'Article Not Found | SURWASH Program Newsletter',
+      description: 'The requested newsletter article could not be found.',
     };
   }
 

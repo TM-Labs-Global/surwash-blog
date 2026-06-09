@@ -13,22 +13,24 @@ export async function POST(request: Request) {
       );
     }
 
-    const payload = await request.json();
-    const dynamicSlug = payload?.slug?.current || payload?.slug;
-
-    if (!dynamicSlug) {
-      return NextResponse.json(
-        { message: 'Invalid payload — route slug missing' },
-        { status: 400 }
-      );
+    let payload: any = {};
+    try {
+      payload = await request.json();
+    } catch (e) {
+      // Safe fallback for empty or non-JSON payloads
     }
+    
+    const dynamicSlug = payload?.slug?.current || payload?.slug;
 
     // Purge cached data fetch keys
     revalidateTag('posts', {});
-    revalidateTag(`post-${dynamicSlug}`, {});
+    if (dynamicSlug) {
+      revalidateTag(`post-${dynamicSlug}`, {});
+      // Force static page rebuild over specific path
+      revalidatePath(`/blog/${dynamicSlug}`);
+    }
 
     // Force static page rebuild over path boundaries
-    revalidatePath(`/blog/${dynamicSlug}`);
     revalidatePath('/blog');
     revalidatePath('/');
     revalidatePath('/publications');

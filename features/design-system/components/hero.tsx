@@ -5,7 +5,7 @@ export function Hero() {
                 <span>Design System v1.0</span>
             </div>
             <h1 className="text-hero-display text-[var(--text-base)] max-w-2xl">
-                SURWASH Program Blog
+                SURWASH Program Newsletter
             </h1>
             <p className="text-body-large text-[var(--text-secondary)] max-w-xl">
                 Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program. 

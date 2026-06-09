@@ -46,7 +46,7 @@ export default async function PublicationsPage() {
               />
             </div>
             <div className="flex gap-6 text-sm text-[var(--color-secondary-100)]">
-              <a href="/" className="hover:underline">Blog</a>
+              <a href="/" className="hover:underline">Newsletter</a>
               <a href="/publications" className="hover:underline">Publications</a>
             </div>
           </div>

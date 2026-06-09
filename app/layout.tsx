@@ -19,10 +19,10 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://surwash-blog-websit
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "SURWASH Program Blog",
-    template: "%s | SURWASH Program Blog",
+    default: "SURWASH Program Newsletter",
+    template: "%s | SURWASH Program Newsletter",
   },
-  description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog. Real-time updates, field assessments, and strategic briefings from Nigeria.",
+  description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Newsletter. Real-time updates, field assessments, and strategic briefings from Nigeria.",
   keywords: [
     "WASH",
     "Water Supply",
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_NG",
     url: baseUrl,
-    siteName: "SURWASH Program Blog",
-    title: "SURWASH Program Blog",
-    description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog. Real-time updates, field assessments, and strategic briefings from Nigeria.",
+    siteName: "SURWASH Program Newsletter",
+    title: "SURWASH Program Newsletter",
+    description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Newsletter. Real-time updates, field assessments, and strategic briefings from Nigeria.",
     images: [
       {
         url: "/brand/logo/SVG/SURWASH Logo.svg",
@@ -70,8 +70,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SURWASH Program Blog",
-    description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Blog. Real-time updates, field assessments, and strategic briefings from Nigeria.",
+    title: "SURWASH Program Newsletter",
+    description: "Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program Newsletter. Real-time updates, field assessments, and strategic briefings from Nigeria.",
     images: ["/brand/logo/SVG/SURWASH Logo.svg"],
   },
 };

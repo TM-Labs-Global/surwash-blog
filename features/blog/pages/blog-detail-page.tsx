@@ -40,7 +40,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             href="/"
             className="px-6 py-2.5 rounded-full bg-surwash-navy text-white text-xs font-bold hover:bg-[var(--color-secondary-600)] transition-colors"
           >
-            Return to Blog Feed
+            Return to Newsletter Feed
           </a>
         </main>
       </div>
@@ -84,7 +84,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
   return (
     <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col font-sans">
       {/* Navigation Header */}
-      <Header activeLink="blog" />
+      <Header activeLink="newsletter" />
 
       {/* Main Post Wrapper */}
       <div className="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -94,7 +94,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
           className="inline-flex items-center gap-1 text-sm font-bold text-[var(--color-neutral-500)] hover:text-surwash-blue mb-8 transition-colors duration-200"
         >
           <span className="material-symbols-outlined text-sm font-bold">arrow_back</span>
-          <span>Back to Blog Feed</span>
+          <span>Back to Newsletter Feed</span>
         </a>
 
         {/* Post Metadata Card */}
@@ -238,7 +238,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
               />
             </div>
             <div className="flex gap-6 text-sm text-[var(--color-secondary-100)]">
-              <a href="/" className="hover:underline">Blog</a>
+              <a href="/" className="hover:underline">Newsletter</a>
               <a href="/publications" className="hover:underline">Publications</a>
             </div>
           </div>

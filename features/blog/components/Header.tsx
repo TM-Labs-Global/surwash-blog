@@ -4,7 +4,7 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 
 interface HeaderProps {
-  activeLink: 'blog' | 'publications' | 'none';
+  activeLink: 'newsletter' | 'publications' | 'none';
 }
 
 function HeaderContent({ activeLink }: HeaderProps) {
@@ -35,7 +35,7 @@ function HeaderContent({ activeLink }: HeaderProps) {
       params.delete('search');
     }
     
-    // If user is inside an article detail page, redirect to main blog feed
+    // If user is inside an article detail page, redirect to main newsletter feed
     let targetPath = pathname;
     if (pathname.startsWith('/blog/')) {
       targetPath = '/';
@@ -80,12 +80,12 @@ function HeaderContent({ activeLink }: HeaderProps) {
               <a
                 href="/"
                 className={`text-sm ${
-                  activeLink === 'blog'
+                  activeLink === 'newsletter'
                     ? 'font-bold text-surwash-blue'
                     : 'font-semibold text-[var(--color-neutral-600)] hover:text-surwash-blue transition-colors'
                 }`}
               >
-                Blog
+                Newsletter
               </a>
               <a
                 href="/publications"
@@ -140,8 +140,8 @@ function HeaderSkeleton({ activeLink }: HeaderProps) {
           />
         </a>
         <nav className="flex items-center gap-6">
-          <a href="/" className={`text-sm ${activeLink === 'blog' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
-            Blog
+          <a href="/" className={`text-sm ${activeLink === 'newsletter' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
+            Newsletter
           </a>
           <a href="/publications" className={`text-sm ${activeLink === 'publications' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
             Publications
