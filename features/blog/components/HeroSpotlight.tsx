@@ -89,7 +89,7 @@ export default function HeroSpotlight({ post }: HeroSpotlightProps) {
             </p>
             <div>
               <a
-                href={`/blog/${post.slug?.current}`}
+                href={`/newsletter/${post.slug?.current}`}
                 className="inline-flex items-center gap-1.5 text-sm font-bold text-surwash-blue hover:text-surwash-blue transition-colors duration-200 outline-none after:absolute after:inset-0 after:content-['']"
               >
                 <span>Read Full Story</span>

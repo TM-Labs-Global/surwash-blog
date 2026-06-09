@@ -8,12 +8,23 @@ export interface Comment {
   approved?: boolean;
 }
 
+export interface EditionReference {
+  _id: string;
+  title: string;
+  slug: { current: string };
+  theme: string;
+  themeDescription?: string;
+  editionNumber: number;
+  month: string;
+}
+
 export interface Post {
   _id: string;
   title: string;
   slug: { current: string };
   stateScope: string;
   _createdAt: string;
+  publishedAt?: string;
   metaDescription: string;
   imageUrl?: string;
   mainImage?: {
@@ -29,9 +40,28 @@ export interface Post {
     alt?: string;
   };
   content: any;
-  postType: 'press_release' | 'news_update' | 'field_report' | 'policy_brief';
+  postType: string;
   isFeatured?: boolean;
   comments?: Comment[];
+  edition?: EditionReference;
+}
+
+export interface NewsletterEdition {
+  _id: string;
+  title: string;
+  slug: { current: string };
+  theme: string;
+  themeDescription?: string;
+  editionNumber: number;
+  month: string;
+  publishedAt: string;
+  coverImage?: {
+    asset: {
+      url: string;
+    };
+    alt?: string;
+  };
+  posts: Post[];
 }
 
 export interface PageSection {
@@ -66,7 +96,88 @@ export const sanityClient = isConfigured
     })
   : null;
 
-// Fetch posts by state scope
+// Fetch all newsletter editions with their linked articles (for homepage)
+export const getEditionsWithPosts = async (): Promise<NewsletterEdition[]> => {
+  if (!sanityClient) {
+    console.warn('Sanity client not configured.');
+    return [];
+  }
+
+  try {
+    // Fetch editions ordered newest first
+    const editionsQuery = `*[_type == "newsletterEdition"] | order(month desc) {
+      _id, title, slug, theme, themeDescription, editionNumber, month, publishedAt,
+      "coverImage": coverImage { asset->{ url }, alt }
+    }`;
+    const editions = await sanityClient.fetch(editionsQuery, {}, { next: { tags: ['editions'] } });
+
+    if (!editions || editions.length === 0) return [];
+
+    // For each edition, fetch its linked posts
+    const editionsWithPosts = await Promise.all(
+      editions.map(async (edition: NewsletterEdition) => {
+        const postsQuery = `*[_type == "post" && edition._ref == $editionId] | order(publishedAt asc, _createdAt asc) {
+          _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
+          "imageUrl": mainImage.asset->url, postType, isFeatured
+        }`;
+        const posts = await sanityClient!.fetch(postsQuery, { editionId: edition._id }, { next: { tags: ['posts', `edition-${edition._id}`] } });
+        return { ...edition, posts: posts || [] };
+      })
+    );
+
+    return editionsWithPosts;
+  } catch (error) {
+    console.error('Sanity editions query failed:', error);
+    return [];
+  }
+};
+
+// Fetch a single edition by slug, with all its posts (for edition landing page)
+export const getEditionBySlug = async (slug: string): Promise<NewsletterEdition | null> => {
+  if (!sanityClient) {
+    console.warn('Sanity client not configured.');
+    return null;
+  }
+
+  try {
+    const editionQuery = `*[_type == "newsletterEdition" && slug.current == $slug][0] {
+      _id, title, slug, theme, themeDescription, editionNumber, month, publishedAt,
+      "coverImage": coverImage { asset->{ url }, alt }
+    }`;
+    const edition = await sanityClient.fetch(editionQuery, { slug }, { next: { tags: [`edition-${slug}`] } });
+    if (!edition) return null;
+
+    const postsQuery = `*[_type == "post" && edition._ref == $editionId] | order(publishedAt asc, _createdAt asc) {
+      _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
+      "imageUrl": mainImage.asset->url, postType, isFeatured
+    }`;
+    const posts = await sanityClient.fetch(postsQuery, { editionId: edition._id }, { next: { tags: [`edition-${slug}`, 'posts'] } });
+
+    return { ...edition, posts: posts || [] };
+  } catch (error) {
+    console.error('Sanity edition query failed:', error);
+    return null;
+  }
+};
+
+// Fetch all edition slugs for static path generation
+export const getAllEditionSlugs = async (): Promise<string[]> => {
+  if (!sanityClient) {
+    console.warn('Sanity client not configured.');
+    return [];
+  }
+
+  try {
+    const query = `*[_type == "newsletterEdition" && defined(slug.current)][].slug.current`;
+    const results = await sanityClient.fetch(query, {}, { next: { tags: ['editions'] } });
+    return results || [];
+  } catch (error) {
+    console.error('Sanity edition slugs query failed:', error);
+    return [];
+  }
+};
+
+// Fetch posts by state scope (kept for backward compatibility / fallback)
 export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
   if (!sanityClient) {
     console.warn('Sanity client not configured.');
@@ -75,8 +186,8 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
 
   try {
     const query = stateScope === 'all' || !stateScope
-      ? `*[_type == "post"] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`
-      : `*[_type == "post" && stateScope == $stateScope] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`;
+      ? `*[_type == "post"] | order(publishedAt desc, _createdAt desc) { _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`
+      : `*[_type == "post" && stateScope == $stateScope] | order(publishedAt desc, _createdAt desc) { _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`;
     
     const results = await sanityClient.fetch(query, { stateScope }, { next: { tags: ['posts'] } });
     return results || [];
@@ -94,7 +205,13 @@ export const getPostBySlug = async (slug: string): Promise<Post | null> => {
   }
 
   try {
-    const query = `*[_type == "post" && slug.current == $slug][0] { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, "mainImage": mainImage { asset-> { url, metadata { dimensions { width, height } } }, alt }, content, postType, isFeatured }`;
+    const query = `*[_type == "post" && slug.current == $slug][0] {
+      _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
+      "imageUrl": mainImage.asset->url,
+      "mainImage": mainImage { asset->{ url, metadata { dimensions { width, height } } }, alt },
+      content, postType, isFeatured,
+      "edition": edition->{ _id, title, slug, theme, themeDescription, editionNumber, month }
+    }`;
     const result = await sanityClient.fetch(query, { slug }, { next: { tags: ['posts', `post-${slug}`] } });
     return result || null;
   } catch (error) {
@@ -153,4 +270,3 @@ export const getTickerPages = async (): Promise<TickerPage[]> => {
     return [];
   }
 };
-

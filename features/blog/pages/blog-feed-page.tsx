@@ -1,12 +1,13 @@
 import React, { Suspense } from 'react';
-import { getPostsByState, getTickerPages } from '../lib/sanity';
+import { getEditionsWithPosts, getPostsByState, getTickerPages } from '../lib/sanity';
 import LatestNewsTicker from '../components/LatestNewsTicker';
-import BlogFeedClient from './blog-feed-client';
+import NewsletterFeedClient from './newsletter-feed-client';
 import Header from '../components/Header';
 
 export default async function BlogFeedPage() {
-  // Fetch posts and ticker-enabled CMS pages in parallel
-  const [posts, tickerPages] = await Promise.all([
+  // Fetch editions (primary), fallback posts, and ticker pages in parallel
+  const [editions, fallbackPosts, tickerPages] = await Promise.all([
+    getEditionsWithPosts(),
     getPostsByState('all'),
     getTickerPages(),
   ]);
@@ -17,28 +18,55 @@ export default async function BlogFeedPage() {
       <Header activeLink="newsletter" />
 
       {/* Scrolling News Ticker Marquee */}
-      <LatestNewsTicker posts={posts} tickerPages={tickerPages} />
+      <LatestNewsTicker posts={fallbackPosts} tickerPages={tickerPages} />
 
-      {/* Hero Section */}
-      <section className="bg-white py-12 border-b border-[var(--color-neutral-100)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--color-primary-50)] text-surwash-blue text-[10px] font-bold uppercase font-accent tracking-wider mb-4">
-              <span>National & Regional Updates</span>
+      {/* Hero Section — premium gradient masthead */}
+      <section className="relative overflow-hidden bg-[#1A3A5C]">
+        {/* Radial glow background */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'radial-gradient(ellipse at 5% 80%, rgba(27,159,212,0.25) 0%, transparent 55%), radial-gradient(ellipse at 90% 10%, rgba(232,118,43,0.15) 0%, transparent 50%)',
+          }}
+        />
+        {/* Bottom gradient fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-[#1A3A5C] to-transparent" />
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <div className="max-w-2xl">
+            {/* Label pill */}
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#1B9FD4]/40 bg-[#1B9FD4]/10 text-[#1B9FD4] text-[10px] font-bold uppercase font-accent tracking-widest mb-6">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#1B9FD4] animate-pulse" />
+              <span>Official Newsletter Archive</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-black text-[#1A3A5C] tracking-tight font-display mb-3">
-              Re-introducing SURWASH
+
+            <h1 style={{ color: '#ffffff' }} className="text-4xl sm:text-6xl font-black tracking-tight font-display leading-none mb-5">
+              SURWASH<br />
+              <span>Newsletter</span>
             </h1>
-            <p className="text-sm sm:text-base text-surwash-grey leading-relaxed">
-              Real-time updates, field assessments, and strategic briefings from the Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) program across Nigeria.
+
+            <p style={{ color: '#ffffff' }} className="text-sm sm:text-base leading-relaxed max-w-xl font-sans">
+              The official bi-monthly newsletter of the Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Programme — programme milestones, state spotlights, and community voices.
             </p>
+
+            {/* Divider stripe */}
+            <div className="flex gap-1 mt-8">
+              <span className="h-0.5 w-16 rounded-full bg-[#1B9FD4]" />
+              <span className="h-0.5 w-8 rounded-full bg-[#E8762B]" />
+              <span className="h-0.5 w-4 rounded-full bg-[#2E8B4A]" />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Interactive Client Blog Area */}
-      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center text-xs text-surwash-grey">Loading newsletter feed...</div>}>
-        <BlogFeedClient initialPosts={posts} />
+      {/* Edition-grouped Newsletter Feed */}
+      <Suspense fallback={
+        <div className="min-h-[400px] flex items-center justify-center text-xs text-surwash-grey">
+          Loading newsletter editions...
+        </div>
+      }>
+        <NewsletterFeedClient editions={editions} fallbackPosts={fallbackPosts} />
       </Suspense>
 
       {/* Footer */}
@@ -59,7 +87,7 @@ export default async function BlogFeedPage() {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 text-xs text-[var(--color-secondary-200)]">
             <span>© {new Date().getFullYear()} Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program. All rights reserved.</span>
-            <span>Federal Ministry of Water Resources, Nigeria</span>
+            <span>Federal Ministry of Water Resources and Sanitation, Nigeria</span>
           </div>
         </div>
       </footer>

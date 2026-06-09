@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import RichTextRenderer from '../components/RichTextRenderer';
 import Header from '../components/Header';
 import { Post } from '../lib/sanity';
@@ -42,7 +43,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
     );
   }
 
-  const formattedDate = new Date(post._createdAt).toLocaleDateString('en-NG', {
+  const formattedDate = new Date(post.publishedAt || post._createdAt).toLocaleDateString('en-NG', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
@@ -51,18 +52,45 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
   const stateLabels: Record<string, string> = {
     federal: 'Federal',
     abuja: 'Abuja (FCT)',
-    lagos: 'Lagos',
-    kano: 'Kano',
+    plateau: 'Plateau State',
+    katsina: 'Katsina State',
+    gombe: 'Gombe State',
+    kaduna: 'Kaduna State',
+    ekiti: 'Ekiti State',
+    imo: 'Imo State',
+    delta: 'Delta State',
+    abia: 'Abia State',
+    bauchi: 'Bauchi State',
+    benue: 'Benue State',
+    taraba: 'Taraba State',
+    ogun: 'Ogun State',
+    jigawa: 'Jigawa State',
   };
 
   const stateColors: Record<string, string> = {
     federal: 'bg-surwash-blue text-white',
     abuja: 'bg-surwash-navy text-white',
-    lagos: 'bg-surwash-grey text-white',
-    kano: 'bg-[var(--color-neutral-600)] text-white',
+    plateau: 'bg-surwash-navy text-white',
+    katsina: 'bg-surwash-blue text-white',
+    gombe: 'bg-surwash-grey text-white',
+    kaduna: 'bg-[var(--color-neutral-600)] text-white',
+    ekiti: 'bg-surwash-blue text-white',
+    imo: 'bg-surwash-navy text-white',
+    delta: 'bg-surwash-blue text-white',
+    abia: 'bg-surwash-grey text-white',
+    bauchi: 'bg-surwash-navy text-white',
+    benue: 'bg-surwash-blue text-white',
+    taraba: 'bg-[var(--color-neutral-600)] text-white',
+    ogun: 'bg-surwash-navy text-white',
+    jigawa: 'bg-surwash-blue text-white',
   };
 
   const typeLabels: Record<string, string> = {
+    programme_overview: 'Programme Overview',
+    leadership_message: 'Leadership',
+    state_spotlight: 'State Spotlight',
+    community: 'Community',
+    forward_look: 'Forward Look',
     press_release: 'Press Release',
     news_update: 'News Update',
     field_report: 'Field Report',
@@ -70,6 +98,11 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
   };
 
   const typeColors: Record<string, string> = {
+    programme_overview: 'bg-surwash-blue text-white',
+    leadership_message: 'bg-surwash-navy text-white',
+    state_spotlight: 'bg-surwash-orange text-white',
+    community: 'bg-surwash-green text-white',
+    forward_look: 'bg-surwash-blue text-white',
     press_release: 'bg-surwash-orange text-white',
     news_update: 'bg-surwash-blue text-white',
     field_report: 'bg-surwash-green text-white',
@@ -81,12 +114,31 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
       {/* Navigation Header */}
       <Header activeLink="newsletter" />
 
-      {/* Main Post Wrapper */}
+      {/* Main Article Wrapper */}
       <div className="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        {/* Edition Breadcrumb (shown only if article is linked to an edition) */}
+        {post.edition && (
+          <div className="mb-4 flex items-center gap-2 text-xs font-sans text-[var(--color-neutral-500)]">
+            <Link href="/" className="hover:text-surwash-blue transition-colors">
+              Newsletter
+            </Link>
+            <span className="text-[var(--color-neutral-300)]">/</span>
+            <Link
+              href={`/newsletter/editions/${post.edition.slug.current}`}
+              className="hover:text-surwash-blue transition-colors"
+            >
+              {post.edition.title}
+            </Link>
+            <span className="text-[var(--color-neutral-300)]">/</span>
+            <span className="text-surwash-navy font-medium truncate max-w-[200px]">{post.title}</span>
+          </div>
+        )}
+
         {/* Back Link */}
         <a
           href="/"
-          className="inline-flex items-center gap-1 text-sm font-bold text-[var(--color-neutral-500)] hover:text-surwash-blue mb-8 transition-colors duration-200"
+          className="inline-flex items-center gap-1 text-sm font-bold text-[var(--color-neutral-500)] hover:text-surwash-blue mb-6 transition-colors duration-200"
         >
           <span className="material-symbols-outlined text-sm font-bold">arrow_back</span>
           <span>Back to Newsletter Feed</span>
@@ -95,6 +147,25 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
         {/* Post Metadata Card */}
         <article className="bg-white border border-[var(--color-neutral-200)] rounded-xl overflow-hidden shadow-sm p-6 sm:p-10">
           <header className="border-b border-[var(--color-neutral-100)] pb-8 mb-8">
+
+            {/* Edition + Theme Tag (if edition linked) */}
+            {post.edition && (
+              <Link
+                href={`/newsletter/editions/${post.edition.slug.current}`}
+                className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--color-primary-50)] hover:bg-[var(--color-primary-100)] text-surwash-blue text-[10px] font-bold uppercase font-accent tracking-wider mb-4 transition-colors duration-200 group"
+              >
+                <span className="material-symbols-outlined text-xs">article</span>
+                <span>{post.edition.title}</span>
+                {post.edition.theme && (
+                  <>
+                    <span className="text-[var(--color-neutral-300)]">·</span>
+                    <span className="text-surwash-orange">{post.edition.theme}</span>
+                  </>
+                )}
+                <span className="material-symbols-outlined text-xs transition-transform duration-200 group-hover:translate-x-0.5">chevron_right</span>
+              </Link>
+            )}
+
             <div className="flex flex-wrap items-center gap-3 mb-4">
               <span className={`text-[10px] font-semibold font-accent tracking-wider uppercase px-2.5 py-1 rounded shadow-sm ${stateColors[post.stateScope] || 'bg-gray-500 text-white'}`}>
                 {stateLabels[post.stateScope] || post.stateScope}
@@ -162,7 +233,19 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             <RichTextRenderer content={post.content} />
           </div>
 
-
+          {/* Edition navigation footer */}
+          {post.edition && (
+            <div className="border-t border-[var(--color-neutral-100)] pt-8 mt-4">
+              <Link
+                href={`/newsletter/editions/${post.edition.slug.current}`}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[var(--color-neutral-200)] text-xs font-bold text-surwash-navy hover:bg-[var(--color-primary-50)] hover:border-surwash-blue hover:text-surwash-blue transition-all duration-200 group"
+              >
+                <span className="material-symbols-outlined text-sm">menu_book</span>
+                <span>More from {post.edition.title}</span>
+                <span className="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-0.5">chevron_right</span>
+              </Link>
+            </div>
+          )}
         </article>
       </div>
 
@@ -184,7 +267,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 text-xs text-[var(--color-secondary-200)]">
             <span>© {new Date().getFullYear()} Sustainable Urban and Rural Water Supply, Sanitation and Hygiene (SURWASH) Program. All rights reserved.</span>
-            <span>Federal Ministry of Water Resources, Nigeria</span>
+            <span>Federal Ministry of Water Resources and Sanitation, Nigeria</span>
           </div>
         </div>
       </footer>

@@ -91,28 +91,6 @@ export default function BlogFeedClient({ initialPosts }: BlogFeedClientProps) {
           </div>
         )}
       </main>
-
-      {/* 4. Call to Action Banner for Dedicated Publications Page */}
-      <section className="bg-[var(--color-primary-50)] border-t border-[var(--color-neutral-200)] py-14">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="material-symbols-outlined text-4xl text-surwash-blue mb-3">
-            folder_shared
-          </span>
-          <h2 className="text-2xl font-bold text-[#1A3A5C] font-display mb-3">
-            Official Policy Frameworks & Reports
-          </h2>
-          <p className="text-sm text-surwash-grey max-w-xl mx-auto mb-6 leading-relaxed font-sans">
-            Looking for strategic roadmaps, urban hygiene guidelines, or solar borehole assessments? Visit the dedicated Publications Registry database.
-          </p>
-          <a
-            href="/publications"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-surwash-navy text-white text-xs font-bold hover:bg-surwash-blue hover:shadow transition-all duration-200"
-          >
-            <span className="material-symbols-outlined text-sm">menu_book</span>
-            <span>View Publications Registry</span>
-          </a>
-        </div>
-      </section>
     </div>
   );
 }

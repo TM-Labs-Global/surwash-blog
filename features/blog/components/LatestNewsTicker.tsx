@@ -15,7 +15,7 @@ export default function LatestNewsTicker({ posts, tickerPages = [] }: LatestNews
   if (tickerPosts.length === 0 && tickerPages.length === 0) return null;
 
   return (
-    <div className="w-full bg-surwash-navy text-white border-b border-[var(--color-neutral-800)] h-10 flex items-center overflow-hidden">
+    <div className="w-full text-white h-10 flex items-center overflow-hidden" style={{ backgroundColor: '#E8762B', borderBottom: '1px solid rgba(0,0,0,0.1)' }}>
       <style>{`
         @keyframes ticker {
           0% { transform: translate3d(0, 0, 0); }
@@ -33,11 +33,11 @@ export default function LatestNewsTicker({ posts, tickerPages = [] }: LatestNews
       `}</style>
       
       {/* Title Label */}
-      <div className="pl-4 pr-3 shrink-0 z-10 bg-surwash-navy flex items-center h-full border-r border-[var(--color-secondary-600)]">
-        <div className="bg-surwash-blue text-white text-[9px] font-bold font-sans uppercase px-2.5 py-1 rounded-full flex items-center gap-1.5 shadow-sm tracking-wider">
+      <div className="pl-4 pr-3 shrink-0 z-10 flex items-center h-full" style={{ borderRight: '1px solid rgba(255,255,255,0.25)', backgroundColor: '#E8762B' }}>
+        <div className="bg-white text-[#E8762B] text-[9px] font-bold font-sans uppercase px-2.5 py-1 rounded-full flex items-center gap-1.5 shadow-sm tracking-wider">
           <span className="relative flex h-1.5 w-1.5">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-white"></span>
+            <span className="w-1.5 h-1.5 rounded-full bg-[#E8762B] animate-ping absolute inline-flex opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#E8762B]"></span>
           </span>
           <span>Latest Update</span>
         </div>
@@ -45,7 +45,8 @@ export default function LatestNewsTicker({ posts, tickerPages = [] }: LatestNews
 
       {/* Marquee Container */}
       <div 
-        className="flex-1 overflow-hidden relative flex items-center h-full bg-surwash-navy"
+        className="flex-1 overflow-hidden relative flex items-center h-full"
+        style={{ backgroundColor: '#E8762B' }}
         aria-label="Latest program updates news ticker"
         role="region"
       >
@@ -72,16 +73,16 @@ export default function LatestNewsTicker({ posts, tickerPages = [] }: LatestNews
                 <a
                   key={`post-${post._id}-${pass}-${idx}`}
                   href={`/blog/${post.slug?.current}`}
-                  className="text-white hover:text-surwash-blue flex items-center gap-3 transition-colors duration-150 whitespace-nowrap"
+                  className="text-white hover:text-[#1A3A5C] flex items-center gap-3 transition-colors duration-150 whitespace-nowrap"
                 >
-                  <span className="text-[var(--color-neutral-400)] font-sans text-[10px]">
+                  <span className="text-white/70 font-sans text-[10px]">
                     {new Date(post._createdAt).toLocaleDateString('en-NG', {
                       day: 'numeric',
                       month: 'short',
                     })}
                   </span>
                   <span className="font-sans font-semibold">{post.title}</span>
-                  <span className="text-surwash-blue text-xs">•</span>
+                  <span className="text-white/60 text-xs">•</span>
                 </a>
               ))}
 

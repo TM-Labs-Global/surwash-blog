@@ -2,12 +2,12 @@ import { defineField, defineType } from 'sanity';
 
 export default defineType({
   name: 'post',
-  title: 'SURWASH Blog Post',
+  title: 'Newsletter Article',
   type: 'document',
   fields: [
     defineField({
       name: 'title',
-      title: 'Post Title',
+      title: 'Article Title',
       type: 'string',
       validation: Rule => Rule.required().max(100),
     }),
@@ -22,25 +22,48 @@ export default defineType({
       validation: Rule => Rule.required(),
     }),
     defineField({
+      name: 'edition',
+      title: 'Newsletter Edition',
+      type: 'reference',
+      to: [{ type: 'newsletterEdition' }],
+      description: 'Link this article to its Newsletter Edition for grouped homepage display.',
+    }),
+    defineField({
       name: 'stateScope',
-      title: 'Target State Region',
+      title: 'State / Region',
       type: 'string',
       options: {
         list: [
           { title: 'Federal / National', value: 'federal' },
           { title: 'Abuja (FCT)', value: 'abuja' },
-          { title: 'Lagos State', value: 'lagos' },
-          { title: 'Kano State', value: 'kano' },
+          { title: 'Plateau State', value: 'plateau' },
+          { title: 'Katsina State', value: 'katsina' },
+          { title: 'Gombe State', value: 'gombe' },
+          { title: 'Kaduna State', value: 'kaduna' },
+          { title: 'Ekiti State', value: 'ekiti' },
+          { title: 'Imo State', value: 'imo' },
+          { title: 'Delta State', value: 'delta' },
+          { title: 'Abia State', value: 'abia' },
+          { title: 'Bauchi State', value: 'bauchi' },
+          { title: 'Benue State', value: 'benue' },
+          { title: 'Taraba State', value: 'taraba' },
+          { title: 'Ogun State', value: 'ogun' },
+          { title: 'Jigawa State', value: 'jigawa' },
         ],
       },
       validation: Rule => Rule.required(),
     }),
     defineField({
       name: 'postType',
-      title: 'Content Type',
+      title: 'Article Category',
       type: 'string',
       options: {
         list: [
+          { title: 'Programme Overview', value: 'programme_overview' },
+          { title: 'Leadership Message', value: 'leadership_message' },
+          { title: 'State Spotlight', value: 'state_spotlight' },
+          { title: 'Community / Human Interest', value: 'community' },
+          { title: 'Forward Look / Updates', value: 'forward_look' },
           { title: 'Press Release', value: 'press_release' },
           { title: 'News Update', value: 'news_update' },
           { title: 'Field Report', value: 'field_report' },
@@ -54,11 +77,11 @@ export default defineType({
       title: 'Feature as Hero Post',
       type: 'boolean',
       initialValue: false,
-      description: 'When enabled, this post displays as the featured spotlight on the blog homepage.',
+      description: 'When enabled, this article displays as the featured spotlight on the newsletter homepage.',
     }),
     defineField({
       name: 'mainImage',
-      title: 'Cover Featured Image',
+      title: 'Cover / Banner Image',
       type: 'image',
       options: {
         hotspot: true,
@@ -79,11 +102,11 @@ export default defineType({
     }),
     defineField({
       name: 'metaDescription',
-      title: 'SEO Meta Description',
+      title: 'Excerpt / SEO Description',
       type: 'text',
       rows: 3,
       validation: Rule => Rule.required().max(160),
-      description: 'Summarize the post in 160 characters max for search engine listings.',
+      description: 'A short summary of the article (160 characters max). Shown on article cards and search results.',
     }),
     defineField({
       name: 'publishedAt',
@@ -95,13 +118,13 @@ export default defineType({
   preview: {
     select: {
       title: 'title',
-      stateScope: 'stateScope',
+      edition: 'edition.title',
       media: 'mainImage',
     },
-    prepare({ title, stateScope, media }) {
+    prepare({ title, edition, media }) {
       return {
         title: title,
-        subtitle: stateScope,
+        subtitle: edition ? `Edition: ${edition}` : 'No edition linked',
         media: media,
       };
     },

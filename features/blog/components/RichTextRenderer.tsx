@@ -24,18 +24,18 @@ export default function RichTextRenderer({ content }: RichTextRendererProps) {
         const imageUrl = urlFor(value)?.url();
         if (!imageUrl) return null;
         return (
-          <div className="my-8 w-full max-w-2xl mx-auto rounded-lg overflow-hidden border border-[var(--color-neutral-200)] shadow-sm bg-[var(--color-neutral-50)]">
+          <figure className="my-8 w-full max-w-2xl mx-auto rounded-lg overflow-hidden border border-[var(--color-neutral-200)] shadow-sm bg-[var(--color-neutral-50)]">
             <img
               src={imageUrl}
               alt={value.alt || 'Newsletter Image'}
               className="w-full h-auto object-contain mx-auto"
             />
-            {value.alt && (
-              <div className="bg-white border-t border-[var(--color-neutral-100)] px-4 py-2 text-center text-xs text-[var(--color-surwash-grey)] font-sans italic">
-                {value.alt}
-              </div>
+            {(value.caption || value.alt) && (
+              <figcaption className="bg-white border-t border-[var(--color-neutral-100)] px-4 py-2 text-center text-xs text-[var(--color-neutral-500)] font-sans italic">
+                {value.caption || value.alt}
+              </figcaption>
             )}
-          </div>
+          </figure>
         );
       },
       ctaButton: ({ value }: any) => {
