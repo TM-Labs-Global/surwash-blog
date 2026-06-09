@@ -16,10 +16,29 @@ export interface Post {
   _createdAt: string;
   metaDescription: string;
   imageUrl?: string;
+  mainImage?: {
+    asset: {
+      url: string;
+      metadata: {
+        dimensions: {
+          width: number;
+          height: number;
+        };
+      };
+    };
+    alt?: string;
+  };
   content: any;
   postType: 'press_release' | 'news_update' | 'field_report' | 'policy_brief';
   isFeatured?: boolean;
   comments?: Comment[];
+}
+
+export interface PageData {
+  _id: string;
+  title: string;
+  slug: { current: string };
+  content: any;
 }
 
 const isConfigured = !!process.env.SANITY_PROJECT_ID;
@@ -43,8 +62,8 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
 
   try {
     const query = stateScope === 'all' || !stateScope
-      ? `*[_type == "post"] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured, "comments": *[_type == "comment" && post._ref == ^._id && approved == true] | order(_createdAt asc) { _id, name, _createdAt, comment } }`
-      : `*[_type == "post" && stateScope == $stateScope] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured, "comments": *[_type == "comment" && post._ref == ^._id && approved == true] | order(_createdAt asc) { _id, name, _createdAt, comment } }`;
+      ? `*[_type == "post"] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`
+      : `*[_type == "post" && stateScope == $stateScope] | order(_createdAt desc) { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`;
     
     const results = await sanityClient.fetch(query, { stateScope }, { next: { tags: ['posts'] } });
     return results || [];
@@ -62,7 +81,7 @@ export const getPostBySlug = async (slug: string): Promise<Post | null> => {
   }
 
   try {
-    const query = `*[_type == "post" && slug.current == $slug][0] { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured, "comments": *[_type == "comment" && post._ref == ^._id && approved == true] | order(_createdAt asc) { _id, name, _createdAt, comment } }`;
+    const query = `*[_type == "post" && slug.current == $slug][0] { _id, title, slug, stateScope, _createdAt, metaDescription, "imageUrl": mainImage.asset->url, "mainImage": mainImage { asset-> { url, metadata { dimensions { width, height } } }, alt }, content, postType, isFeatured }`;
     const result = await sanityClient.fetch(query, { slug }, { next: { tags: ['posts', `post-${slug}`] } });
     return result || null;
   } catch (error) {
@@ -85,6 +104,23 @@ export const getAllPostSlugs = async (): Promise<string[]> => {
   } catch (error) {
     console.error('Sanity query failed:', error);
     return [];
+  }
+};
+
+// Fetch a single custom page by its slug path
+export const getPageBySlug = async (slug: string): Promise<PageData | null> => {
+  if (!sanityClient) {
+    console.warn('Sanity client not configured.');
+    return null;
+  }
+
+  try {
+    const query = `*[_type == "page" && slug.current == $slug][0] { _id, title, slug, content }`;
+    const result = await sanityClient.fetch(query, { slug }, { next: { tags: [`page-${slug}`] } });
+    return result || null;
+  } catch (error) {
+    console.error('Sanity page query failed:', error);
+    return null;
   }
 };
 

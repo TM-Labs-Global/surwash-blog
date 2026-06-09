@@ -1,21 +1,16 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
+import Image from 'next/image';
 import RichTextRenderer from '../components/RichTextRenderer';
-import CommentForm from '../components/CommentForm';
 import Header from '../components/Header';
-import { Post, Comment } from '../lib/sanity';
+import { Post } from '../lib/sanity';
 
 interface BlogDetailPageProps {
   post: Post | null;
 }
 
 export default function BlogDetailPage({ post }: BlogDetailPageProps) {
-  const [localComments, setLocalComments] = useState<Comment[]>(post?.comments || []);
-
-  const handleCommentSubmitted = (newComment: Comment) => {
-    setLocalComments((prev) => [...prev, newComment]);
-  };
   if (!post) {
     return (
       <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col justify-between font-sans">
@@ -127,17 +122,21 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
           {/* 4/5 Aspect Ratio Brand Canvas Featured Image */}
           {post.imageUrl && (
             <div className="max-w-xl mx-auto mb-10 border border-[var(--color-neutral-200)] rounded-lg overflow-hidden shadow-sm flex flex-col bg-[var(--color-neutral-50)]">
-              <div className="aspect-[4/5] relative w-full overflow-hidden flex flex-col">
-                {/* 80% Immersive Image */}
-                <div className="h-[80%] w-full relative">
-                  <img
+              <div className="w-full flex flex-col">
+                {/* Immersive Image scaling naturally to original aspect ratio */}
+                <div className="w-full relative">
+                  <Image
                     src={post.imageUrl}
-                    alt={post.title}
-                    className="w-full h-full object-cover"
+                    alt={post.mainImage?.alt || post.title}
+                    width={post.mainImage?.asset?.metadata?.dimensions?.width || 800}
+                    height={post.mainImage?.asset?.metadata?.dimensions?.height || 600}
+                    sizes="(max-width: 768px) 100vw, 600px"
+                    className="w-full h-auto object-contain mx-auto"
+                    priority
                   />
                 </div>
-                {/* 20% Brand Bar */}
-                <div className="h-[20%] w-full bg-white border-t border-[var(--color-neutral-100)] flex items-center justify-between px-4 py-2">
+                {/* Brand Bar */}
+                <div className="w-full bg-white border-t border-[var(--color-neutral-100)] flex items-center justify-between px-4 py-3">
                   <div className="h-6 w-auto flex items-center">
                     <img
                       src="/brand/logo/SVG/SURWASH Logo.svg"
@@ -163,66 +162,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             <RichTextRenderer content={post.content} />
           </div>
 
-          {/* Comments Section */}
-          <div className="border-t border-[var(--color-neutral-200)] pt-10 mt-10">
-            <h3 className="text-lg font-bold text-[#1A3A5C] font-display mb-6 flex items-center gap-2">
-              <span className="material-symbols-outlined text-xl text-surwash-blue">forum</span>
-              <span>Discussion ({localComments.length})</span>
-            </h3>
 
-            {/* Comments List */}
-            {localComments.length === 0 ? (
-              <p className="text-xs text-[var(--color-neutral-500)] italic mb-8 bg-[var(--color-neutral-50)] p-4 rounded-lg border border-[var(--color-neutral-200)] text-center">
-                No comments yet. Be the first to share your thoughts on this update!
-              </p>
-            ) : (
-              <div className="space-y-6 mb-10">
-                {localComments.map((c) => (
-                  <div
-                    key={c._id}
-                    className="p-4 rounded-lg bg-[var(--color-neutral-50)] border border-[var(--color-neutral-200)] transition-all hover:shadow-sm"
-                  >
-                    <div className="flex items-start justify-between gap-4 mb-2">
-                      <div className="flex items-center gap-2.5">
-                        <div className="w-8 h-8 rounded-full bg-surwash-navy flex items-center justify-center text-white font-bold text-xs">
-                          {c.name.charAt(0).toUpperCase()}
-                        </div>
-                        <div>
-                          <span className="block text-xs font-bold text-[#1A3A5C]">
-                            {c.name}
-                          </span>
-                          <span className="block text-[10px] text-[var(--color-neutral-400)]">
-                            {new Date(c._createdAt).toLocaleDateString('en-NG', {
-                              day: 'numeric',
-                              month: 'short',
-                              year: 'numeric',
-                              hour: '2-digit',
-                              minute: '2-digit',
-                            })}
-                          </span>
-                        </div>
-                      </div>
-                      
-                      {c.approved === false && (
-                        <span className="inline-flex items-center gap-1 text-[9px] font-semibold bg-amber-50 text-amber-800 border border-amber-200 px-2 py-0.5 rounded-full font-sans">
-                          <span className="material-symbols-outlined text-[10px] animate-pulse">pending</span>
-                          <span>Awaiting moderation</span>
-                        </span>
-                      )}
-                    </div>
-                    <p className="text-xs text-[var(--color-neutral-700)] leading-relaxed pl-10 whitespace-pre-line font-sans">
-                      {c.comment}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Comment Submission Form */}
-            <div className="mt-8">
-              <CommentForm postId={post._id} onCommentSubmitted={handleCommentSubmitted} />
-            </div>
-          </div>
         </article>
       </div>
 

@@ -21,19 +21,29 @@ export async function POST(request: Request) {
     }
     
     const dynamicSlug = payload?.slug?.current || payload?.slug;
+    const docType = payload?._type;
 
-    // Purge cached data fetch keys
-    revalidateTag('posts', {});
-    if (dynamicSlug) {
-      revalidateTag(`post-${dynamicSlug}`, {});
-      // Force static page rebuild over specific path
-      revalidatePath(`/blog/${dynamicSlug}`);
+    if (docType === 'page') {
+      revalidateTag('pages', {});
+      if (dynamicSlug) {
+        revalidateTag(`page-${dynamicSlug}`, {});
+        // Force static page rebuild over specific path
+        revalidatePath(`/${dynamicSlug}`);
+      }
+    } else {
+      // default: post
+      revalidateTag('posts', {});
+      if (dynamicSlug) {
+        revalidateTag(`post-${dynamicSlug}`, {});
+        // Force static page rebuild over specific path
+        revalidatePath(`/blog/${dynamicSlug}`);
+      }
+
+      // Force static page rebuild over path boundaries
+      revalidatePath('/blog');
+      revalidatePath('/');
+      revalidatePath('/publications');
     }
-
-    // Force static page rebuild over path boundaries
-    revalidatePath('/blog');
-    revalidatePath('/');
-    revalidatePath('/publications');
 
     return NextResponse.json({
       revalidated: true,

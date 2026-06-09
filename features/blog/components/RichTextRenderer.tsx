@@ -1,5 +1,13 @@
 import React from 'react';
 import { PortableText } from '@portabletext/react';
+import { createImageUrlBuilder } from '@sanity/image-url';
+import { sanityClient } from '../lib/sanity';
+
+const builder = sanityClient ? createImageUrlBuilder(sanityClient) : null;
+
+function urlFor(source: any) {
+  return builder ? builder.image(source) : null;
+}
 
 interface RichTextRendererProps {
   content: any;
@@ -10,6 +18,43 @@ export default function RichTextRenderer({ content }: RichTextRendererProps) {
 
   // Custom components to style Portable Text blocks to align with brand guidelines
   const components = {
+    types: {
+      image: ({ value }: any) => {
+        if (!value?.asset) return null;
+        const imageUrl = urlFor(value)?.url();
+        if (!imageUrl) return null;
+        return (
+          <div className="my-8 w-full max-w-2xl mx-auto rounded-lg overflow-hidden border border-[var(--color-neutral-200)] shadow-sm bg-[var(--color-neutral-50)]">
+            <img
+              src={imageUrl}
+              alt={value.alt || 'Newsletter Image'}
+              className="w-full h-auto object-contain mx-auto"
+            />
+            {value.alt && (
+              <div className="bg-white border-t border-[var(--color-neutral-100)] px-4 py-2 text-center text-xs text-[var(--color-surwash-grey)] font-sans italic">
+                {value.alt}
+              </div>
+            )}
+          </div>
+        );
+      },
+      ctaButton: ({ value }: any) => {
+        if (!value?.buttonText || !value?.url) return null;
+        return (
+          <div className="my-8 flex justify-center">
+            <a
+              href={value.url}
+              target={value.url.startsWith('/') ? undefined : '_blank'}
+              rel={value.url.startsWith('/') ? undefined : 'noopener noreferrer'}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-surwash-blue text-white text-xs font-bold hover:bg-surwash-navy hover:shadow transition-all duration-200 font-accent tracking-wide uppercase"
+            >
+              <span>{value.buttonText}</span>
+              <span className="material-symbols-outlined text-sm">arrow_forward</span>
+            </a>
+          </div>
+        );
+      },
+    },
     block: {
       h1: ({ children }: any) => (
         <h1 className="text-3xl sm:text-4xl font-bold font-display text-[var(--color-secondary-500)] mt-8 mb-4 border-l-4 border-[var(--color-surwash-blue)] pl-4 leading-tight">
