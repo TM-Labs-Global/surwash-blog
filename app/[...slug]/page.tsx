@@ -64,6 +64,8 @@ export default async function CustomDynamicPage({ params }: PageProps) {
     notFound();
   }
 
+  const hasSections = page.sections && page.sections.length > 0;
+
   return (
     <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col font-sans">
       {/* Header */}
@@ -81,11 +83,31 @@ export default async function CustomDynamicPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Page Body Content */}
+      {/* Page Body — Multiple Sections */}
       <main className="flex-grow max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <article className="bg-white border border-[var(--color-neutral-200)] rounded-xl shadow-sm p-6 sm:p-10 prose prose-blue max-w-none">
-          <RichTextRenderer content={page.content} />
-        </article>
+        {hasSections ? (
+          <div className="space-y-10">
+            {page.sections.map((section, index) => (
+              <article
+                key={section._key || index}
+                className="bg-white border border-[var(--color-neutral-200)] rounded-xl shadow-sm p-6 sm:p-10"
+              >
+                {section.sectionTitle && (
+                  <h2 className="text-2xl font-bold text-[#1A3A5C] mb-6 pb-3 border-b border-[var(--color-neutral-100)]">
+                    {section.sectionTitle}
+                  </h2>
+                )}
+                <div className="prose prose-blue max-w-none">
+                  <RichTextRenderer content={section.body} />
+                </div>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <div className="bg-white border border-[var(--color-neutral-200)] rounded-xl shadow-sm p-10 text-center text-[var(--color-neutral-400)]">
+            <p className="text-lg">No content has been added to this page yet.</p>
+          </div>
+        )}
       </main>
 
       {/* Footer */}

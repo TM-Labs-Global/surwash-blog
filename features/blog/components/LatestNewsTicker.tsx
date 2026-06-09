@@ -1,17 +1,18 @@
 import React from 'react';
-import { Post } from '../lib/sanity';
+import { Post, TickerPage } from '../lib/sanity';
 
 interface LatestNewsTickerProps {
   posts: Post[];
+  tickerPages?: TickerPage[];
 }
 
-export default function LatestNewsTicker({ posts }: LatestNewsTickerProps) {
+export default function LatestNewsTicker({ posts, tickerPages = [] }: LatestNewsTickerProps) {
   // Filter for news and press releases, take the latest 4
   const tickerPosts = posts
     .filter(p => p.postType === 'news_update' || p.postType === 'press_release')
     .slice(0, 4);
 
-  if (tickerPosts.length === 0) return null;
+  if (tickerPosts.length === 0 && tickerPages.length === 0) return null;
 
   return (
     <div className="w-full bg-surwash-navy text-white border-b border-[var(--color-neutral-800)] h-10 flex items-center overflow-hidden">
@@ -49,22 +50,42 @@ export default function LatestNewsTicker({ posts }: LatestNewsTickerProps) {
         role="region"
       >
         <div className="animate-ticker py-1 flex items-center gap-12 text-xs font-medium tracking-wide">
-          {/* Double the list to create a seamless infinite loop */}
-          {[...tickerPosts, ...tickerPosts].map((post, idx) => (
-            <a
-              key={`${post._id}-${idx}`}
-              href={`/blog/${post.slug?.current}`}
-              className="text-white hover:text-surwash-blue flex items-center gap-3 transition-colors duration-150 whitespace-nowrap"
-            >
-              <span className="text-[var(--color-neutral-400)] font-sans text-[10px]">
-                {new Date(post._createdAt).toLocaleDateString('en-NG', {
-                  day: 'numeric',
-                  month: 'short',
-                })}
-              </span>
-              <span className="font-sans font-semibold">{post.title}</span>
-              <span className="text-surwash-blue text-xs">•</span>
-            </a>
+          {/* Duplicate the full set twice for a seamless infinite loop */}
+          {[0, 1].map((pass) => (
+            <React.Fragment key={pass}>
+
+              {/* CMS-driven featured pages — gold styled */}
+              {tickerPages.map((page) => (
+                <a
+                  key={`page-${page._id}-${pass}`}
+                  href={`/${page.slug.current}`}
+                  className="flex items-center gap-2 text-[#F5A623] hover:text-white transition-colors duration-150 whitespace-nowrap"
+                >
+                  <span className="material-symbols-outlined text-sm leading-none">star</span>
+                  <span className="font-sans font-bold">{page.title}</span>
+                  <span className="text-[var(--color-secondary-400)] text-xs">•</span>
+                </a>
+              ))}
+
+              {/* Regular news & press release posts — white */}
+              {tickerPosts.map((post, idx) => (
+                <a
+                  key={`post-${post._id}-${pass}-${idx}`}
+                  href={`/blog/${post.slug?.current}`}
+                  className="text-white hover:text-surwash-blue flex items-center gap-3 transition-colors duration-150 whitespace-nowrap"
+                >
+                  <span className="text-[var(--color-neutral-400)] font-sans text-[10px]">
+                    {new Date(post._createdAt).toLocaleDateString('en-NG', {
+                      day: 'numeric',
+                      month: 'short',
+                    })}
+                  </span>
+                  <span className="font-sans font-semibold">{post.title}</span>
+                  <span className="text-surwash-blue text-xs">•</span>
+                </a>
+              ))}
+
+            </React.Fragment>
           ))}
         </div>
       </div>

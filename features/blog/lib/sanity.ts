@@ -34,11 +34,24 @@ export interface Post {
   comments?: Comment[];
 }
 
+export interface PageSection {
+  _key: string;
+  sectionTitle?: string;
+  body: any;
+}
+
 export interface PageData {
   _id: string;
   title: string;
   slug: { current: string };
-  content: any;
+  sections: PageSection[];
+  showInTicker?: boolean;
+}
+
+export interface TickerPage {
+  _id: string;
+  title: string;
+  slug: { current: string };
 }
 
 const isConfigured = !!process.env.SANITY_PROJECT_ID;
@@ -115,12 +128,29 @@ export const getPageBySlug = async (slug: string): Promise<PageData | null> => {
   }
 
   try {
-    const query = `*[_type == "page" && slug.current == $slug][0] { _id, title, slug, content }`;
+    const query = `*[_type == "page" && slug.current == $slug][0] { _id, title, slug, sections[]{ _key, sectionTitle, body }, showInTicker }`;
     const result = await sanityClient.fetch(query, { slug }, { next: { tags: [`page-${slug}`] } });
     return result || null;
   } catch (error) {
     console.error('Sanity page query failed:', error);
     return null;
+  }
+};
+
+// Fetch all custom pages that have the ticker toggle enabled
+export const getTickerPages = async (): Promise<TickerPage[]> => {
+  if (!sanityClient) {
+    console.warn('Sanity client not configured.');
+    return [];
+  }
+
+  try {
+    const query = `*[_type == "page" && showInTicker == true && defined(slug.current)] | order(_createdAt desc) { _id, title, slug }`;
+    const results = await sanityClient.fetch(query, {}, { next: { tags: ['pages'] } });
+    return results || [];
+  } catch (error) {
+    console.error('Sanity ticker pages query failed:', error);
+    return [];
   }
 };
 

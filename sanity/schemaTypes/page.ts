@@ -22,9 +22,44 @@ export default defineType({
       validation: Rule => Rule.required(),
     }),
     defineField({
-      name: 'content',
-      title: 'Page Content',
-      type: 'blockContent',
+      name: 'sections',
+      title: 'Page Sections',
+      description: 'Add one or more content sections. Each section has an optional title and a rich-text body.',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          name: 'pageSection',
+          title: 'Section',
+          fields: [
+            defineField({
+              name: 'sectionTitle',
+              title: 'Section Title',
+              type: 'string',
+              description: 'Optional. Displayed as a heading above this section\'s content.',
+            }),
+            defineField({
+              name: 'body',
+              title: 'Body',
+              type: 'blockContent',
+              validation: Rule => Rule.required(),
+            }),
+          ],
+          preview: {
+            select: { title: 'sectionTitle' },
+            prepare: ({ title }) => ({
+              title: title || '(Untitled Section)',
+            }),
+          },
+        },
+      ],
+    }),
+    defineField({
+      name: 'showInTicker',
+      title: 'Show in Homepage Ticker',
+      type: 'boolean',
+      description: 'When enabled, this page will appear as a featured link in the scrolling marquee on the homepage.',
+      initialValue: false,
     }),
   ],
   preview: {

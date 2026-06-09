@@ -1,12 +1,15 @@
 import React, { Suspense } from 'react';
-import { getPostsByState } from '../lib/sanity';
+import { getPostsByState, getTickerPages } from '../lib/sanity';
 import LatestNewsTicker from '../components/LatestNewsTicker';
 import BlogFeedClient from './blog-feed-client';
 import Header from '../components/Header';
 
 export default async function BlogFeedPage() {
-  // Fetch all posts initially on the server for full SEO indexability
-  const posts = await getPostsByState('all');
+  // Fetch posts and ticker-enabled CMS pages in parallel
+  const [posts, tickerPages] = await Promise.all([
+    getPostsByState('all'),
+    getTickerPages(),
+  ]);
 
   return (
     <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col font-sans">
@@ -14,7 +17,7 @@ export default async function BlogFeedPage() {
       <Header activeLink="newsletter" />
 
       {/* Scrolling News Ticker Marquee */}
-      <LatestNewsTicker posts={posts} />
+      <LatestNewsTicker posts={posts} tickerPages={tickerPages} />
 
       {/* Hero Section */}
       <section className="bg-white py-12 border-b border-[var(--color-neutral-100)]">
