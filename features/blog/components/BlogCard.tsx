@@ -131,7 +131,7 @@ export default function BlogCard({ post }: { post: Post }) {
       <div className={`h-1 w-full ${accent.bg}`} />
 
       {/* Image area */}
-      <div className="relative w-full overflow-hidden" style={{ aspectRatio: '16/9' }}>
+      <div className="relative w-full overflow-hidden" style={{ aspectRatio: '4/3' }}>
         <img
           src={imageUrl}
           alt={post.title}
