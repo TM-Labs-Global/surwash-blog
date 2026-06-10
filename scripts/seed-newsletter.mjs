@@ -5,12 +5,20 @@
  */
 
 import { createClient } from '@sanity/client';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
 const client = createClient({
-  projectId: '0qnyls1e',
-  dataset: 'production',
+  projectId: process.env.SANITY_PROJECT_ID,
+  dataset: process.env.SANITY_DATASET || 'production',
   apiVersion: '2023-05-03',
-  token: 'skak6OZfEGLIl5OVRvy7hJLMxGMeITW6Q2vqUXpF06o8Jyj5zAAgF4eKqKT0yOMuO386AeAhWrPB00lXcZvlMs5ZhEBb48CQyjRbuWOd9YTCSB2w6MSqPGBV5DPGUlrGZSarIuKTXPWWmToXzoklNGsYcxbQPG57cdqGkRGtSWS5sn8dLKP2',
+  token: process.env.SANITY_API_WRITE_TOKEN,
   useCdn: false,
 });
 
