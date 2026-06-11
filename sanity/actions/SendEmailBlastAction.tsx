@@ -72,10 +72,10 @@ export function SendEmailBlastAction(props: any) {
     try {
       const token = process.env.SANITY_STUDIO_EMAIL_BLAST_SECRET;
       
-      // Local development vs Production API address resolution
+      // Development vs Production API URL resolution
       const apiBase = typeof window !== 'undefined' && window.location.hostname === 'localhost'
         ? 'http://localhost:3000'
-        : '';
+        : 'https://newsletter.surwash.ng';
 
       const response = await fetch(`${apiBase}/api/blast`, {
         method: 'POST',
