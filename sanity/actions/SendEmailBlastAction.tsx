@@ -71,9 +71,15 @@ export function SendEmailBlastAction(props: any) {
 
     try {
       const token = process.env.SANITY_STUDIO_EMAIL_BLAST_SECRET;
+      if (!token) {
+        console.warn('SANITY_STUDIO_EMAIL_BLAST_SECRET is not configured. Handshake with Next.js API will fail.');
+      }
       
       // Development vs Production API URL resolution
-      const apiBase = typeof window !== 'undefined' && window.location.hostname === 'localhost'
+      const isLocalhost = typeof window !== 'undefined' && 
+        (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+        
+      const apiBase = isLocalhost
         ? 'http://localhost:3000'
         : 'https://newsletter.surwash.ng';
 
@@ -81,14 +87,22 @@ export function SendEmailBlastAction(props: any) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
+          'Authorization': `Bearer ${token || ''}`,
         },
         body: JSON.stringify({
           blastId: targetDoc._id,
         }),
       });
 
-      const data = await response.json();
+      const contentType = response.headers.get('content-type');
+      let data: any = {};
+      
+      if (contentType && contentType.includes('application/json')) {
+        data = await response.json();
+      } else {
+        const textResponse = await response.text();
+        throw new Error(`Server returned non-JSON response (status ${response.status}): ${textResponse.slice(0, 150)}`);
+      }
 
       if (!response.ok) {
         throw new Error(data.error || 'Failed to trigger dispatch.');

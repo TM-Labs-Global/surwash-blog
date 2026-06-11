@@ -82,7 +82,7 @@ export async function POST(request: Request) {
         editionNumber,
         month,
         "coverImageUrl": coverImage.asset->url,
-        "posts": *[_type == "post" && edition._ref == _id] | order(publishedAt asc, _createdAt asc) {
+        "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt asc, _createdAt asc) {
           _id,
           title,
           "slug": slug.current,
