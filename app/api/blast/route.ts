@@ -223,7 +223,7 @@ export async function POST(request: Request) {
 }
 
 // Helper: Generates a responsive, visually cohesive newsletter digest email
-function renderEmailTemplate(blast: any, edition: any) {
+export function renderEmailTemplate(blast: any, edition: any) {
   const websiteUrl = 'https://newsletter.surwash.ng';
   
   // Resolve preheader and welcome message customized for this blast, falling back to edition fields
@@ -380,6 +380,32 @@ function renderEmailTemplate(blast: any, edition: any) {
                 <!-- Footer -->
                 <tr>
                   <td style="background-color: #f1f5f9; padding: 28px 24px; text-align: center; border-top: 1px solid #e2e8f0;">
+                    <!-- Partnership Logos -->
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto 24px auto;">
+                      <tr>
+                        <td align="center" style="padding: 0 0 12px 0; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B;">
+                          Brought to you by
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table align="center" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td style="padding: 0 16px; vertical-align: middle;">
+                                <img src="${websiteUrl}/brand/logo/PNG/SURWASH%20Logo_2@300x.png" alt="SURWASH Logo" width="49" height="40" style="width: 49px; height: 40px; display: block; object-fit: contain;" />
+                              </td>
+                              <td style="padding: 0 16px; vertical-align: middle;">
+                                <img src="${websiteUrl}/brand/logo/PNG/World%20Bank%20Internship%20Program%202021%202.png" alt="World Bank Logo" width="50" height="40" style="width: 50px; height: 40px; display: block; object-fit: contain;" />
+                              </td>
+                              <td style="padding: 0 16px; vertical-align: middle;">
+                                <img src="${websiteUrl}/brand/logo/PNG/FMWRS%20Logo%201.png" alt="FMWRS Logo" width="140" height="40" style="width: 140px; height: 40px; display: block; object-fit: contain;" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
                     <p style="margin: 0; font-size: 12px; color: #64748B; line-height: 1.6;">
                       Federal Programme Coordination Unit (FPCU)<br>
                       Federal Ministry of Water Resources and Sanitation<br>
@@ -436,6 +462,8 @@ ${postsText}
 
 --------------------------------------------------
 To explore interactive maps, view beneficiary photos, and leave comments, visit the SURWASH Newsletter Feed Archive at: ${websiteUrl}
+
+Brought to you by: SURWASH, the World Bank, and the Federal Ministry of Water Resources and Sanitation (FMWRS).
 
 Federal Programme Coordination Unit (FPCU)
 Federal Ministry of Water Resources and Sanitation, Abuja, Nigeria.
