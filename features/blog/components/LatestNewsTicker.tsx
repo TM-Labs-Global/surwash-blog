@@ -72,7 +72,7 @@ export default function LatestNewsTicker({ posts, tickerPages = [] }: LatestNews
               {tickerPosts.map((post, idx) => (
                 <a
                   key={`post-${post._id}-${pass}-${idx}`}
-                  href={`/blog/${post.slug?.current}`}
+                  href={`/newsletter/${post.slug?.current}`}
                   className="text-white hover:text-[#1A3A5C] flex items-center gap-3 transition-colors duration-150 whitespace-nowrap"
                 >
                   <span className="text-white/70 font-sans text-[10px]">

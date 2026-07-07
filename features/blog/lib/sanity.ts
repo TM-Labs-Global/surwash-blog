@@ -116,7 +116,7 @@ export const getEditionsWithPosts = async (): Promise<NewsletterEdition[]> => {
     // For each edition, fetch its linked posts
     const editionsWithPosts = await Promise.all(
       editions.map(async (edition: NewsletterEdition) => {
-        const postsQuery = `*[_type == "post" && edition._ref == $editionId] | order(publishedAt asc, _createdAt asc) {
+        const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt asc, _createdAt asc) {
           _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
           "imageUrl": mainImage.asset->url, postType, isFeatured
         }`;
@@ -147,7 +147,7 @@ export const getEditionBySlug = async (slug: string): Promise<NewsletterEdition 
     const edition = await sanityClient.fetch(editionQuery, { slug }, { next: { tags: [`edition-${slug}`] } });
     if (!edition) return null;
 
-    const postsQuery = `*[_type == "post" && edition._ref == $editionId] | order(publishedAt asc, _createdAt asc) {
+    const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt asc, _createdAt asc) {
       _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
       "imageUrl": mainImage.asset->url, postType, isFeatured
     }`;
@@ -186,8 +186,48 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
 
   try {
     const query = stateScope === 'all' || !stateScope
-      ? `*[_type == "post"] | order(publishedAt desc, _createdAt desc) { _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`
-      : `*[_type == "post" && stateScope == $stateScope] | order(publishedAt desc, _createdAt desc) { _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription, "imageUrl": mainImage.asset->url, content, postType, isFeatured }`;
+      ? `*[_type == "post" && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
+          _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
+          "imageUrl": mainImage.asset->url,
+          content[] {
+            ...,
+            _type == "image" => {
+              ...,
+              asset-> {
+                _id,
+                url,
+                metadata {
+                  dimensions {
+                    width,
+                    height
+                  }
+                }
+              }
+            }
+          },
+          postType, isFeatured
+        }`
+      : `*[_type == "post" && stateScope == $stateScope && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
+          _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
+          "imageUrl": mainImage.asset->url,
+          content[] {
+            ...,
+            _type == "image" => {
+              ...,
+              asset-> {
+                _id,
+                url,
+                metadata {
+                  dimensions {
+                    width,
+                    height
+                  }
+                }
+              }
+            }
+          },
+          postType, isFeatured
+        }`;
     
     const results = await sanityClient.fetch(query, { stateScope }, { next: { tags: ['posts'] } });
     return results || [];
@@ -205,11 +245,27 @@ export const getPostBySlug = async (slug: string): Promise<Post | null> => {
   }
 
   try {
-    const query = `*[_type == "post" && slug.current == $slug][0] {
+    const query = `*[_type == "post" && slug.current == $slug && approvalStatus == "approved"][0] {
       _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
       "imageUrl": mainImage.asset->url,
       "mainImage": mainImage { asset->{ url, metadata { dimensions { width, height } } }, alt },
-      content, postType, isFeatured,
+      content[] {
+        ...,
+        _type == "image" => {
+          ...,
+          asset-> {
+            _id,
+            url,
+            metadata {
+              dimensions {
+                width,
+                height
+              }
+            }
+          }
+        }
+      },
+      postType, isFeatured,
       "edition": edition->{ _id, title, slug, theme, themeDescription, editionNumber, month }
     }`;
     const result = await sanityClient.fetch(query, { slug }, { next: { tags: ['posts', `post-${slug}`] } });
@@ -228,7 +284,7 @@ export const getAllPostSlugs = async (): Promise<string[]> => {
   }
 
   try {
-    const query = `*[_type == "post" && defined(slug.current)][].slug.current`;
+    const query = `*[_type == "post" && defined(slug.current) && approvalStatus == "approved"][].slug.current`;
     const results = await sanityClient.fetch(query, {}, { next: { tags: ['posts'] } });
     return results || [];
   } catch (error) {

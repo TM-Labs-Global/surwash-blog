@@ -27,6 +27,43 @@ export default defineType({
       type: 'reference',
       to: [{ type: 'newsletterEdition' }],
       description: 'Link this article to its Newsletter Edition for grouped homepage display.',
+      validation: Rule => Rule.required(),
+    }),
+    defineField({
+      name: 'approvalStatus',
+      title: 'Approval Status',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Draft', value: 'draft' },
+          { title: 'Ready for Abuja Review', value: 'review' },
+          { title: 'Approved by Head of Comms', value: 'approved' },
+        ],
+        layout: 'radio',
+      },
+      initialValue: 'draft',
+      validation: Rule => Rule.required().custom((value, context) => {
+        const approvedEmails = [
+          'felicia.ngajiusibe@gmail.com',
+          'tmlabs.takeoutmedia@gmail.com',
+          'chukajagu@gmail.com'
+        ];
+        if (value === 'approved' && !approvedEmails.includes((context as any).currentUser?.email || '')) {
+          return 'Only Head of Communications or designated Abuja editors can approve newsletter articles.';
+        }
+        return true;
+      }),
+      readOnly: ({ currentUser, document }) => {
+        const approvedEmails = [
+          'felicia.ngajiusibe@gmail.com',
+          'tmlabs.takeoutmedia@gmail.com',
+          'chukajagu@gmail.com'
+        ];
+        if (document?.approvalStatus === 'approved') {
+          return !approvedEmails.includes(currentUser?.email || '');
+        }
+        return false;
+      },
     }),
     defineField({
       name: 'stateScope',

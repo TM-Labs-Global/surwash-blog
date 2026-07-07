@@ -73,6 +73,38 @@ export default defineType({
       type: 'datetime',
       validation: Rule => Rule.required(),
     }),
+    defineField({
+      name: 'emailsDelivered',
+      title: 'Emails Delivered',
+      type: 'number',
+      initialValue: 0,
+      readOnly: true,
+      description: 'Total number of successfully delivered newsletter emails. (Read-only, updated via webhook)',
+    }),
+    defineField({
+      name: 'emailsOpened',
+      title: 'Emails Opened',
+      type: 'number',
+      initialValue: 0,
+      readOnly: true,
+      description: 'Total number of opened newsletter emails. (Read-only, updated via webhook)',
+    }),
+    defineField({
+      name: 'linkClicks',
+      title: 'Link Clicks',
+      type: 'number',
+      initialValue: 0,
+      readOnly: true,
+      description: 'Total number of click events recorded on newsletter links. (Read-only, updated via webhook)',
+    }),
+    defineField({
+      name: 'bounces',
+      title: 'Bounces',
+      type: 'number',
+      initialValue: 0,
+      readOnly: true,
+      description: 'Total number of hard/soft bounces. (Read-only, updated via webhook)',
+    }),
   ],
   preview: {
     select: {

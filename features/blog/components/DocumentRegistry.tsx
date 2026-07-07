@@ -116,7 +116,7 @@ export default function DocumentRegistry({ posts, selectedState }: DocumentRegis
                   <td className="px-6 py-4">
                     <div className="flex flex-col">
                       <a
-                        href={`/blog/${doc.slug?.current}`}
+                        href={`/newsletter/${doc.slug?.current}`}
                         className="font-bold text-sm text-surwash-navy hover:text-surwash-blue transition-colors font-display"
                       >
                         {doc.title}
@@ -147,7 +147,7 @@ export default function DocumentRegistry({ posts, selectedState }: DocumentRegis
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-right text-xs font-medium">
                     <a
-                      href={`/blog/${doc.slug?.current}`}
+                      href={`/newsletter/${doc.slug?.current}`}
                       className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[var(--color-neutral-300)] text-surwash-navy font-bold hover:bg-[var(--color-neutral-100)] hover:text-surwash-blue transition-all duration-150"
                     >
                       <span className="material-symbols-outlined text-sm">description</span>
@@ -176,7 +176,7 @@ export default function DocumentRegistry({ posts, selectedState }: DocumentRegis
                 </span>
               </div>
               <h3 className="font-bold text-base text-surwash-navy font-display leading-snug">
-                <a href={`/blog/${doc.slug?.current}`} className="hover:text-surwash-blue transition-colors">
+                <a href={`/newsletter/${doc.slug?.current}`} className="hover:text-surwash-blue transition-colors">
                   {doc.title}
                 </a>
               </h3>
@@ -192,7 +192,7 @@ export default function DocumentRegistry({ posts, selectedState }: DocumentRegis
                   })}
                 </span>
                 <a
-                  href={`/blog/${doc.slug?.current}`}
+                  href={`/newsletter/${doc.slug?.current}`}
                   className="inline-flex items-center gap-1 text-xs font-bold text-surwash-blue"
                 >
                   <span>Read Brief</span>

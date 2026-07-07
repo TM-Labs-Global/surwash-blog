@@ -17,7 +17,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
       <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col justify-between font-sans">
         <header className="bg-white border-b border-[var(--color-neutral-200)] py-4">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <a href="/">
+            <a href="/newsletter">
               <img src="/brand/logo/SVG/SURWASH Logo.svg" alt="SURWASH Logo" className="h-8 w-auto object-contain" />
             </a>
           </div>
@@ -33,7 +33,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             The article you are looking for does not exist or has been removed from the platform.
           </p>
           <a
-            href="/"
+            href="/newsletter"
             className="px-6 py-2.5 rounded-full bg-surwash-navy text-white text-xs font-bold hover:bg-[var(--color-secondary-600)] transition-colors"
           >
             Return to Newsletter Feed
@@ -120,12 +120,12 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
         {/* Edition Breadcrumb (shown only if article is linked to an edition) */}
         {post.edition && (
           <div className="mb-4 flex items-center gap-2 text-xs font-sans text-[var(--color-neutral-500)]">
-            <Link href="/" className="hover:text-surwash-blue transition-colors">
+            <Link href="/newsletter" className="hover:text-surwash-blue transition-colors">
               Newsletter
             </Link>
             <span className="text-[var(--color-neutral-300)]">/</span>
             <Link
-              href={`/newsletter/editions/${post.edition.slug.current}`}
+              href={`/newsletter/edition/${post.edition.slug.current}`}
               className="hover:text-surwash-blue transition-colors"
             >
               {post.edition.title}
@@ -151,7 +151,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             {/* Edition + Theme Tag (if edition linked) */}
             {post.edition && (
               <Link
-                href={`/newsletter/editions/${post.edition.slug.current}`}
+                href={`/newsletter/edition/${post.edition.slug.current}`}
                 className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--color-primary-50)] hover:bg-[var(--color-primary-100)] text-surwash-blue text-[10px] font-bold uppercase font-accent tracking-wider mb-4 transition-colors duration-200 group"
               >
                 <span className="material-symbols-outlined text-xs">article</span>
@@ -237,7 +237,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
           {post.edition && (
             <div className="border-t border-[var(--color-neutral-100)] pt-8 mt-4">
               <Link
-                href={`/newsletter/editions/${post.edition.slug.current}`}
+                href={`/newsletter/edition/${post.edition.slug.current}`}
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[var(--color-neutral-200)] text-xs font-bold text-surwash-navy hover:bg-[var(--color-primary-50)] hover:border-surwash-blue hover:text-surwash-blue transition-all duration-200 group"
               >
                 <span className="material-symbols-outlined text-sm">menu_book</span>
@@ -261,7 +261,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
               />
             </div>
             <div className="flex gap-6 text-sm text-[var(--color-secondary-100)]">
-              <a href="/" className="hover:underline">Newsletter</a>
+              <a href="/newsletter" className="hover:underline">Newsletter</a>
               <a href="/publications" className="hover:underline">Publications</a>
             </div>
           </div>

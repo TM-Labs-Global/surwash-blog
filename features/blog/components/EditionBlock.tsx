@@ -33,7 +33,7 @@ export default function EditionBlock({ edition }: EditionBlockProps) {
 
           {/* CTA — visible on desktop only here */}
           <Link
-            href={`/newsletter/editions/${edition.slug.current}`}
+            href={`/newsletter/edition/${edition.slug.current}`}
             className="hidden sm:inline-flex flex-shrink-0 items-center gap-1.5 px-4 py-2 rounded-full border border-[#1A3A5C] text-[#1A3A5C] text-xs font-bold hover:bg-[#1A3A5C] hover:text-white transition-all duration-200 group font-accent tracking-wide"
           >
             <span>View Full Edition</span>
@@ -58,7 +58,7 @@ export default function EditionBlock({ edition }: EditionBlockProps) {
 
         {/* CTA — mobile only, full width below description */}
         <Link
-          href={`/newsletter/editions/${edition.slug.current}`}
+          href={`/newsletter/edition/${edition.slug.current}`}
           className="sm:hidden mt-3 w-full inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl border border-[#1A3A5C] text-[#1A3A5C] text-xs font-bold hover:bg-[#1A3A5C] hover:text-white transition-all duration-200 group font-accent tracking-wide"
         >
           <span>View Full Edition</span>

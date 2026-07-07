@@ -1,5 +1,5 @@
-import { BlogFeedPage } from "@/features/blog";
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return <BlogFeedPage />;
+  redirect('/newsletter');
 }

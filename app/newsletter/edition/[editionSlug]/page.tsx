@@ -5,12 +5,12 @@ import { EditionDetailPage } from '@/features/blog';
 import { notFound } from 'next/navigation';
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ editionSlug: string }>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const edition = await getEditionBySlug(slug);
+  const { editionSlug } = await params;
+  const edition = await getEditionBySlug(editionSlug);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://surwash-blog-website.vercel.app';
 
   if (!edition) {
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const editionUrl = `${baseUrl}/newsletter/editions/${edition.slug.current}`;
+  const editionUrl = `${baseUrl}/newsletter/edition/${edition.slug.current}`;
   const imageUrl = edition.coverImage?.asset?.url || `${baseUrl}/brand/logo/SVG/SURWASH Logo.svg`;
 
   return {
@@ -38,12 +38,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export async function generateStaticParams() {
   const slugs = await getAllEditionSlugs();
-  return slugs.map((slug: string) => ({ slug }));
+  return slugs.map((slug: string) => ({ editionSlug: slug }));
 }
 
 export default async function EditionPage({ params }: PageProps) {
-  const { slug } = await params;
-  const edition = await getEditionBySlug(slug);
+  const { editionSlug } = await params;
+  const edition = await getEditionBySlug(editionSlug);
 
   if (!edition) {
     notFound();

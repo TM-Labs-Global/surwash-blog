@@ -21,15 +21,50 @@ export default function RichTextRenderer({ content }: RichTextRendererProps) {
     types: {
       image: ({ value }: any) => {
         if (!value?.asset) return null;
-        const imageUrl = urlFor(value)?.url();
+        
+        // Retrieve dimensions and url directly if dereferenced, otherwise fall back to builders/parsing
+        const assetRef = value.asset._ref || value.asset._id || '';
+        let width = value.asset.metadata?.dimensions?.width;
+        let height = value.asset.metadata?.dimensions?.height;
+        let imageUrl = value.asset.url;
+
+        if (!imageUrl && assetRef) {
+          imageUrl = urlFor(value)?.url() || '';
+        }
+        
+        // Parse dimensions from reference ID if not resolved via metadata
+        if ((!width || !height) && assetRef) {
+          const parts = assetRef.split('-');
+          if (parts.length >= 3) {
+            const dims = parts[2].split('x');
+            if (dims.length === 2) {
+              width = parseInt(dims[0], 10);
+              height = parseInt(dims[1], 10);
+            }
+          }
+        }
+
         if (!imageUrl) return null;
+
+        const hasDimensions = typeof width === 'number' && typeof height === 'number';
+        const aspectRatio = hasDimensions ? width / height : null;
+
         return (
           <figure className="my-8 w-full max-w-2xl mx-auto rounded-lg overflow-hidden border border-[var(--color-neutral-200)] shadow-sm bg-[var(--color-neutral-50)]">
-            <img
-              src={imageUrl}
-              alt={value.alt || 'Newsletter Image'}
-              className="w-full h-auto object-contain mx-auto"
-            />
+            <div 
+              className="w-full relative overflow-hidden" 
+              style={aspectRatio ? { aspectRatio: `${width} / ${height}` } : undefined}
+            >
+              <img
+                src={imageUrl}
+                alt={value.alt || 'Newsletter Image'}
+                className="w-full h-full object-contain mx-auto"
+                style={{ position: 'relative', display: 'block' }}
+                width={width}
+                height={height}
+                loading="lazy"
+              />
+            </div>
             {(value.caption || value.alt) && (
               <figcaption className="bg-white border-t border-[var(--color-neutral-100)] px-4 py-2 text-center text-xs text-[var(--color-neutral-500)] font-sans italic">
                 {value.caption || value.alt}

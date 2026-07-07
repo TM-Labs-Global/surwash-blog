@@ -30,17 +30,25 @@ export async function POST(request: Request) {
         // Force static page rebuild over specific path
         revalidatePath(`/${dynamicSlug}`);
       }
+    } else if (docType === 'newsletterEdition') {
+      revalidateTag('editions', {});
+      if (dynamicSlug) {
+        revalidateTag(`edition-${dynamicSlug}`, {});
+        revalidatePath(`/newsletter/edition/${dynamicSlug}`);
+      }
+      revalidatePath('/newsletter');
+      revalidatePath('/');
     } else {
       // default: post
       revalidateTag('posts', {});
       if (dynamicSlug) {
         revalidateTag(`post-${dynamicSlug}`, {});
         // Force static page rebuild over specific path
-        revalidatePath(`/blog/${dynamicSlug}`);
+        revalidatePath(`/newsletter/${dynamicSlug}`);
       }
 
       // Force static page rebuild over path boundaries
-      revalidatePath('/blog');
+      revalidatePath('/newsletter');
       revalidatePath('/');
       revalidatePath('/publications');
     }
