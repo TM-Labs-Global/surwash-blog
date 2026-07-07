@@ -1,10 +1,19 @@
 import { defineField, defineType } from 'sanity';
+import PublishingGuidelines from '../components/PublishingGuidelines';
 
 export default defineType({
   name: 'post',
   title: 'Newsletter Article',
   type: 'document',
   fields: [
+    defineField({
+      name: 'publishingRules',
+      title: 'SURWASH Comms Publishing Rules',
+      type: 'string',
+      components: {
+        input: PublishingGuidelines,
+      },
+    }),
     defineField({
       name: 'title',
       title: 'Article Title',
