@@ -1,6 +1,5 @@
-import React from 'react';
-import { BlogFeedPage } from "@/features/blog";
+import { redirect } from 'next/navigation';
 
-export default function NewsletterIndexPage() {
-  return <BlogFeedPage />;
+export default function NewsletterRedirectPage() {
+  redirect('/');
 }

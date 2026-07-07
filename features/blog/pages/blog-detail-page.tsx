@@ -17,7 +17,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
       <div className="min-h-screen bg-[var(--color-neutral-50)] flex flex-col justify-between font-sans">
         <header className="bg-white border-b border-[var(--color-neutral-200)] py-4">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <a href="/newsletter">
+            <a href="/">
               <img src="/brand/logo/SVG/SURWASH Logo.svg" alt="SURWASH Logo" className="h-8 w-auto object-contain" />
             </a>
           </div>
@@ -33,7 +33,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
             The article you are looking for does not exist or has been removed from the platform.
           </p>
           <a
-            href="/newsletter"
+            href="/"
             className="px-6 py-2.5 rounded-full bg-surwash-navy text-white text-xs font-bold hover:bg-[var(--color-secondary-600)] transition-colors"
           >
             Return to Newsletter Feed
@@ -120,7 +120,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
         {/* Edition Breadcrumb (shown only if article is linked to an edition) */}
         {post.edition && (
           <div className="mb-4 flex items-center gap-2 text-xs font-sans text-[var(--color-neutral-500)]">
-            <Link href="/newsletter" className="hover:text-surwash-blue transition-colors">
+            <Link href="/" className="hover:text-surwash-blue transition-colors">
               Newsletter
             </Link>
             <span className="text-[var(--color-neutral-300)]">/</span>
@@ -261,7 +261,7 @@ export default function BlogDetailPage({ post }: BlogDetailPageProps) {
               />
             </div>
             <div className="flex gap-6 text-sm text-[var(--color-secondary-100)]">
-              <a href="/newsletter" className="hover:underline">Newsletter</a>
+              <a href="/" className="hover:underline">Newsletter</a>
               <a href="/publications" className="hover:underline">Publications</a>
             </div>
           </div>

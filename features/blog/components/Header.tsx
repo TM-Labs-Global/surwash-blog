@@ -45,7 +45,7 @@ function HeaderContent({ activeLink }: HeaderProps) {
     // If user is inside an article detail page, redirect to main newsletter feed
     let targetPath = pathname;
     if (pathname.startsWith('/newsletter/')) {
-      targetPath = '/newsletter';
+      targetPath = '/';
     }
     
     router.replace(`${targetPath}?${params.toString()}`);
@@ -61,7 +61,7 @@ function HeaderContent({ activeLink }: HeaderProps) {
       
       let targetPath = pathname;
       if (pathname.startsWith('/newsletter/')) {
-        targetPath = '/newsletter';
+        targetPath = '/';
       }
       
       router.replace(`${targetPath}?${params.toString()}`);
@@ -75,7 +75,7 @@ function HeaderContent({ activeLink }: HeaderProps) {
   return (
     <header className="bg-white border-b border-[var(--color-neutral-200)] sticky top-0 z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/newsletter" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <img
             src="/brand/logo/SVG/SURWASH Logo.svg"
             alt="SURWASH Logo"
@@ -89,7 +89,7 @@ function HeaderContent({ activeLink }: HeaderProps) {
             {!isSearchOpen && (
               <>
                 <Link
-                  href="/newsletter"
+                  href="/"
                   className={`text-sm ${
                     activeLink === 'newsletter'
                       ? 'font-bold text-surwash-blue'
@@ -173,7 +173,7 @@ function HeaderContent({ activeLink }: HeaderProps) {
         <div className="md:hidden border-t border-[var(--color-neutral-200)] bg-white absolute top-16 left-0 w-full shadow-lg z-20 animate-in fade-in slide-in-from-top-2 duration-150">
           <nav className="flex flex-col p-4 gap-3">
             <Link
-              href="/newsletter"
+              href="/"
               className={`px-4 py-3 rounded-lg text-sm font-semibold transition-colors flex items-center gap-2 ${
                 activeLink === 'newsletter'
                   ? 'bg-surwash-blue/10 text-surwash-blue'
@@ -206,7 +206,7 @@ function HeaderSkeleton({ activeLink }: HeaderProps) {
   return (
     <header className="bg-white border-b border-[var(--color-neutral-200)] sticky top-0 z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/newsletter" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <img
             src="/brand/logo/SVG/SURWASH Logo.svg"
             alt="SURWASH Logo"
@@ -215,7 +215,7 @@ function HeaderSkeleton({ activeLink }: HeaderProps) {
         </Link>
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="/newsletter" className={`text-sm ${activeLink === 'newsletter' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
+            <Link href="/" className={`text-sm ${activeLink === 'newsletter' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
               Newsletter
             </Link>
             <Link href="/publications" className={`text-sm ${activeLink === 'publications' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
