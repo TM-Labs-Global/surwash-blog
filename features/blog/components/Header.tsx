@@ -5,7 +5,7 @@ import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 interface HeaderProps {
-  activeLink: 'newsletter' | 'publications' | 'none';
+  activeLink: 'newsletter' | 'publications' | 'login' | 'none';
 }
 
 function HeaderContent({ activeLink }: HeaderProps) {
@@ -108,6 +108,16 @@ function HeaderContent({ activeLink }: HeaderProps) {
                 >
                   Publications
                 </Link>
+                <Link
+                  href="/login"
+                  className={`text-xs font-bold px-4 py-2 rounded-full border border-surwash-blue transition-all duration-200 ml-2 ${
+                    activeLink === 'login'
+                      ? 'bg-surwash-blue text-white'
+                      : 'text-surwash-blue hover:bg-surwash-blue hover:text-white'
+                  }`}
+                >
+                  Editor Portal
+                </Link>
               </>
             )}
 
@@ -194,6 +204,17 @@ function HeaderContent({ activeLink }: HeaderProps) {
               <span className="material-symbols-outlined text-lg">menu_book</span>
               <span>Publications Registry</span>
             </Link>
+            <Link
+              href="/login"
+              className={`px-4 py-3 rounded-lg text-sm font-semibold transition-colors flex items-center gap-2 ${
+                activeLink === 'login'
+                  ? 'bg-surwash-blue/10 text-surwash-blue'
+                  : 'text-[var(--color-neutral-700)] hover:bg-[var(--color-neutral-50)] hover:text-surwash-blue'
+              }`}
+            >
+              <span className="material-symbols-outlined text-lg">lock</span>
+              <span>Editor Login</span>
+            </Link>
           </nav>
         </div>
       )}
@@ -220,6 +241,12 @@ function HeaderSkeleton({ activeLink }: HeaderProps) {
             </Link>
             <Link href="/publications" className={`text-sm ${activeLink === 'publications' ? 'font-bold text-surwash-blue' : 'font-semibold text-[var(--color-neutral-600)]'}`}>
               Publications
+            </Link>
+            <Link
+              href="/login"
+              className="text-xs font-bold px-4 py-2 rounded-full border border-surwash-blue text-surwash-blue ml-2"
+            >
+              Editor Portal
             </Link>
           </nav>
           <button className="text-[var(--color-neutral-600)] p-1 flex items-center justify-center" aria-label="Search">
