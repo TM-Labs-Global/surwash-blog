@@ -33,7 +33,6 @@ export default defineConfig({
   theme: surwashTheme,
 
   auth: {
-    loginMethod: 'signUp' as any,
     providers: (prev) => prev.filter((provider) => provider.name !== 'github'),
   },
   

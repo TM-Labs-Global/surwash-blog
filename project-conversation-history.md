@@ -6,89 +6,90 @@ Note: _This is purely the output of the chat conversation and does not contain a
 
 Understand this codebase clean it up (set it up for a new project to populate
 
-*Listed directory [surwash-blog-website](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website) *
+_Listed directory [surwash-blog-website](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website) _
 
-*Viewed [package.json](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/package.json) *
+_Viewed [package.json](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/package.json) _
 
-*Viewed [README.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/README.md) *
+_Viewed [README.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/README.md) _
 
-*Listed directory [app](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app) *
+_Listed directory [app](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app) _
 
-*Listed directory [features](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features) *
+_Listed directory [features](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features) _
 
-*Listed directory [shared](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared) *
+_Listed directory [shared](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared) _
 
-*Listed directory [docs](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/docs) *
+_Listed directory [docs](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/docs) _
 
-*Viewed [ARCHITECTURE.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/docs/ARCHITECTURE.md) *
+_Viewed [ARCHITECTURE.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/docs/ARCHITECTURE.md) _
 
-*Listed directory [home](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home) *
+_Listed directory [home](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home) _
 
-*Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages) *
+_Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages) _
 
-*Viewed [home-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages/home-page.tsx) *
+_Viewed [home-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages/home-page.tsx) _
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/page.tsx) _
 
-*Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) *
+_Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) _
 
-*Listed directory [design-system](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system) *
+_Listed directory [design-system](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system) _
 
-*Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages) *
+_Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages) _
 
-*Viewed [design-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages/design-page.tsx) *
+_Viewed [design-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages/design-page.tsx) _
 
-*Listed directory [design-system](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/design-system) *
+_Listed directory [design-system](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/design-system) _
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/design-system/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/design-system/page.tsx) _
 
-*Listed directory [docs](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/docs) *
+_Listed directory [docs](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/docs) _
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/docs/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/docs/page.tsx) _
 
-*Listed directory [docs](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs) *
+_Listed directory [docs](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs) _
 
-*Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages) *
+_Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages) _
 
-*Viewed [docs-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages/docs-page.tsx) *
+_Viewed [docs-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages/docs-page.tsx) _
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components) _
 
-*Listed directory [ui](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui) *
+_Listed directory [ui](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui) _
 
-*Listed directory [styles](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles) *
+_Listed directory [styles](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles) _
 
-*Listed directory [utils](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils) *
+_Listed directory [utils](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils) _
 
-*Listed directory [public](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public) *
+_Listed directory [public](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public) _
 
-*Listed directory [brand](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand) *
+_Listed directory [brand](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand) _
 
-*Listed directory [logo](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo) *
+_Listed directory [logo](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo) _
 
-*Listed directory [resource](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/resource) *
+_Listed directory [resource](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/resource) _
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components) _
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components) _
 
-*Viewed [button.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/button.tsx) *
+_Viewed [button.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/button.tsx) _
 
-*Grep searched codebase*
+_Grep searched codebase_
 
-*Grep searched codebase*
+_Grep searched codebase_
 
-*Grep searched codebase*
+_Grep searched codebase_
 
-*Listed directory [showcase](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase) *
+_Listed directory [showcase](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase) _
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I have analyzed the codebase and created an implementation plan for cleaning it up and setting it up for your new **Surwash Blog Website** project.
 
 Please review the [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) artifact, where I have outlined:
+
 - Updating metadata, configuration, and README references.
 - Rebranding the template files from "Juyonna Travels" to "Surwash Blog".
 - Verification steps.
@@ -97,34 +98,33 @@ Please check the **Open Questions** in the plan regarding keeping or deleting th
 
 ### User Input
 
-There also a prd md file for you to understand this surwash project. @@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md] 
-@@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/public/brand/SURWASH Brand Guideline v1.pdf] 
+There also a prd md file for you to understand this surwash project. @@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md]
+@@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/public/brand/SURWASH Brand Guideline v1.pdf]
 
+_Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) _
 
+_Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) _
 
-*Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) *
+_Viewed [semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css) _
 
-*Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) *
+_Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) _
 
-*Viewed [semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css) *
+_Viewed [button.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/button.css) _
 
-*Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) *
+_Grep searched codebase_
 
-*Viewed [button.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/button.css) *
+_Viewed [dimensions.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/dimensions.css) _
 
-*Grep searched codebase*
+_Viewed [effects.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/effects.css) _
 
-*Viewed [dimensions.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/dimensions.css) *
-
-*Viewed [effects.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/effects.css) *
-
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
-I have revised the implementation plan based on the SURWASH PRD and brand guidelines. 
+I have revised the implementation plan based on the SURWASH PRD and brand guidelines.
 
 You can find the updated [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) which now includes:
+
 - Specifying the **Fira Sans** and **Unbounded** typography.
 - Defining the official SURWASH primitive and semantic brand colors (Sky Blue, Dark Navy, Orange, Green, Grey).
 - Full cleanup and rebranding of all template variables and docs/showcase text.
@@ -133,166 +133,166 @@ Please let me know if this revised plan is approved, and I will begin the execut
 
 ### User Input
 
+_Edited relevant file_
 
+_Edited relevant file_
 
-*Edited relevant file*
+_User accepted the command `npm install`_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*User accepted the command `npm install`*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Viewed [button.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/button.css) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [button.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/button.css) *
+_Grep searched codebase_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Grep searched codebase*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Viewed [hero.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/hero.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [hero.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/hero.tsx) *
+_Viewed [design-system-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/design-system-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [design-system-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/design-system-showcase.tsx) *
+_Viewed [brand-voice-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/brand-voice-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [brand-voice-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/brand-voice-showcase.tsx) *
+_Viewed [colors-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/colors-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [colors-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/colors-showcase.tsx) *
+_Viewed [design-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/design-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [design-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/design-showcase.tsx) *
+_Grep searched codebase_
 
-*Edited relevant file*
+_Grep searched codebase_
 
-*Grep searched codebase*
+_Edited relevant file_
 
-*Grep searched codebase*
+_User accepted the command `rm -rf resource`_
 
-*Edited relevant file*
-
-*User accepted the command `rm -rf resource`*
-
-*User accepted the command `npm run lint`*
+_User accepted the command `npm run lint`_
 
 ### Planner Response
 
 No tools called. Waiting for task completion.
 
-*Viewed [text.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/text.tsx) *
+_Viewed [text.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/text.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [brand-voice-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/brand-voice-showcase.tsx) *
+_Viewed [brand-voice-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/brand-voice-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [hero.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components/hero.tsx) *
+_Viewed [hero.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components/hero.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [workflow.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components/workflow.tsx) *
+_Viewed [workflow.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components/workflow.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [form-input.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/form/form-input.tsx) *
+_Viewed [form-input.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/form/form-input.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [button.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/button.tsx) *
+_Viewed [button.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/button.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [data-tables-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/data-tables-showcase.tsx) *
+_Viewed [data-tables-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/data-tables-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) *
+_Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) *
+_Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [inputs-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/inputs-showcase.tsx) *
+_Viewed [inputs-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/inputs-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [navigation-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/navigation-showcase.tsx) *
+_Viewed [navigation-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/navigation-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Viewed [overlays-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/overlays-showcase.tsx) *
+_Viewed [overlays-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/overlays-showcase.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
 
-*User accepted the command `npm run lint`*
-
-### Planner Response
-
-No tools called. Waiting for task completion.
-
-*Viewed [button.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/button.tsx) *
-
-*Edited relevant file*
-
-*Viewed [design-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/design-showcase.tsx) *
-
-*Edited relevant file*
-
-*Viewed [advanced-forms-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/advanced-forms-showcase.tsx) *
-
-*Edited relevant file*
-
-*User accepted the command `npm run lint`*
-
-*User accepted the command `npm run build`*
+_User accepted the command `npm run lint`_
 
 ### Planner Response
 
 No tools called. Waiting for task completion.
 
-*Edited relevant file*
+_Viewed [button.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/button.tsx) _
 
-*Edited relevant file*
+_Edited relevant file_
+
+_Viewed [design-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/design-showcase.tsx) _
+
+_Edited relevant file_
+
+_Viewed [advanced-forms-showcase.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/showcase/advanced-forms-showcase.tsx) _
+
+_Edited relevant file_
+
+_User accepted the command `npm run lint`_
+
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
-I have finished cleaning up and setting up the template codebase for your new **Surwash Blog Website** project. 
+No tools called. Waiting for task completion.
+
+_Edited relevant file_
+
+_Edited relevant file_
+
+### Planner Response
+
+I have finished cleaning up and setting up the template codebase for your new **Surwash Blog Website** project.
 
 The environment has been fully verified, compiles successfully (`npm run build` completed), and passes lint checks with **0 errors**.
 
 ### Summary of Completed Work
+
 Please review the [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) for a detailed breakdown of the changes:
+
 1. **Typography**: Configured the layout to load **Fira Sans** (headings/body) and **Unbounded** (accent/data stats) using Next.js google font optimization.
 2. **Colors**: Set up the official SURWASH primitive palette (Primary Blue, Dark Navy, Accent Orange, Accent Green, Body Grey) and semantic overrides for light and dark modes.
 3. **Rebranding**: Changed all occurrences of "Juyonna Travels" to "SURWASH Blog" and updated mockups to WASH-related administration panels (e.g. data tables, checklists, progress steps, search placeholders).
@@ -305,17 +305,18 @@ The codebase is now clean, branded, and ready for you to build the core blog lis
 
 Awesome!
 read through the prd and create an implementation plan we need to set the right foundation for the project
-@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md] 
+@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md]
 
-*Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) *
+_Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) _
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I have reviewed the PRD and drafted a comprehensive implementation plan to set up the foundation for the SURWASH Blog Platform.
 
 Please review the [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) artifact, which details:
+
 1. Adding Sanity integrations (`next-sanity`, `@portabletext/react`).
 2. Creating the Sanity client and GROQ queries for geographical filtering (`features/blog/lib/`).
 3. Setting up the secure edge revalidation API route (`app/api/revalidate/route.ts`).
@@ -326,98 +327,96 @@ Let me know if this plan is approved so we can start setting it up!
 
 ### User Input
 
+_Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) _
 
+_Edited relevant file_
 
-*Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) *
-
-*Edited relevant file*
-
-*Edited relevant file*
+_Edited relevant file_
 
 ### User Input
 
 Continue
 
-*Viewed [text.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/text.tsx) *
+_Viewed [text.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui/text.tsx) _
 
-*Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) *
+_Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) _
 
-*Viewed [SURWASH Brand Guideline v1.pdf](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/SURWASH%20Brand%20Guideline%20v1.pdf) *
+_Viewed [SURWASH Brand Guideline v1.pdf](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/SURWASH%20Brand%20Guideline%20v1.pdf) _
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I have thoroughly reviewed both the SURWASH PRD and the Visual Identity Guideline.
 
 I've updated the [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) to reflect this new technical and visual direction. As requested:
+
 1. **Routes retained:** The `/docs` and `/design-system` routes are kept. We will rebrand the design system with SURWASH's color palette (Primary Blue, Dark Navy, Accent Orange, Accent Green, Body Grey) and fonts (Fira Sans, Unbounded).
 2. **Architecture mapped:** I've detailed the upcoming setup for the Sanity CMS API Revalidation route, the custom document schemas, and the UI restrictions detailed in the PRD.
-3. **Open Question Added:** Please check the plan regarding whether you have an existing Sanity Project ID to plug in or if we'll be starting a new one during execution. 
+3. **Open Question Added:** Please check the plan regarding whether you have an existing Sanity Project ID to plug in or if we'll be starting a new one during execution.
 
 Please review the updated plan, and once you approve, I will begin the cleanup and foundation execution!
 
 ### User Input
 
+_Edited relevant file_
 
+_Listed directory [styles](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles) _
 
-*Edited relevant file*
+_Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) _
 
-*Listed directory [styles](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles) *
+_Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) _
 
-*Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) *
+_Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) _
 
-*Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) *
+_Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) _
 
-*Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) *
+_Grep searched codebase_
 
-*Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) *
+_Grep searched codebase_
 
-*Grep searched codebase*
+_Viewed [package.json](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/package.json) _
 
-*Grep searched codebase*
+_Viewed [README.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/README.md) _
 
-*Viewed [package.json](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/package.json) *
+_Edited relevant file_
 
-*Viewed [README.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/README.md) *
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*Edited relevant file*
+_Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages) _
 
-*Edited relevant file*
+_Viewed [docs-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages/docs-page.tsx) _
 
-*Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages) *
+_Viewed [architecture.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components/architecture.tsx) _
 
-*Viewed [docs-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/pages/docs-page.tsx) *
+_Edited relevant file_
 
-*Viewed [architecture.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/docs/components/architecture.tsx) *
+_User accepted the command `npm run build`_
 
-*Edited relevant file*
+_User accepted the command `npm install next-sanity @portabletext/react`_
 
-*User accepted the command `npm run build`*
+_Edited relevant file_
 
-*User accepted the command `npm install next-sanity @portabletext/react`*
+_User accepted the command `npm run build`_
 
-*Edited relevant file*
+_Edited relevant file_
 
-*User accepted the command `npm run build`*
-
-*Edited relevant file*
-
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
-The setup and foundation cleanup for the **SURWASH Blog Website** are complete! 
+The setup and foundation cleanup for the **SURWASH Blog Website** are complete!
 
 I have executed the plan according to the PRD and Visual Identity Guidelines:
+
 - **Design Tokens:** Confirmed that `Fira Sans` and `Unbounded` fonts, along with the SURWASH core color palette, are fully configured in the styling variables and the `app/layout.tsx`.
 - **Skeleton generation:** Stood up the baseline components needed for the content engine (`StateFilter.tsx`, `BlogCard.tsx`, `RichTextRenderer.tsx`, and `sanity.ts`), ensuring they match SURWASH's UI rules like the 4/5 image ratio and strict semantic boundaries.
 - **ISR Edge API:** Set up `app/api/revalidate/route.ts` to manage instant cache purging connected to your Sanity webhooks.
@@ -426,14 +425,16 @@ I have executed the plan according to the PRD and Visual Identity Guidelines:
 
 You can view the full summary of what was accomplished in the [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md).
 
-**Next Step for You:** 
+**Next Step for You:**
 You can now create a `.env.local` file in your root directory to insert your Sanity Project ID and other tokens required to connect the CMS!
+
 ```env
 SANITY_PROJECT_ID=your_id
 SANITY_DATASET=production
 SANITY_API_TOKEN=your_token
 SANITY_REVALIDATION_SECRET=your_secret
 ```
+
 Please let me know if you would like me to tackle integrating the frontend UI further!
 
 ### User Input
@@ -444,127 +445,134 @@ What do you mean by tackle integrating the frontend UI further!
 
 I will view the current `implementation_plan.md` and `walkthrough.md` artifacts to understand the exact state of the project and clarify what is meant by "integrating the frontend UI further."
 
-*Viewed [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) *
+_Viewed [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) _
 
 ### Planner Response
 
 I will view the `walkthrough.md` file to see what has already been implemented.
 
-*Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) *
+_Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) _
 
 ### Planner Response
 
 I will list the contents of the root workspace directory to inspect the project structure and see how the existing views/routes are set up.
 
-*Listed directory [surwash-blog-website](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website) *
+_Listed directory [surwash-blog-website](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website) _
 
 ### Planner Response
 
 I will list the features directory to see what modules we have there.
 
-*Listed directory [features](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features) *
+_Listed directory [features](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features) _
 
 ### Planner Response
 
 I will list the app directory to see what routes have been configured.
 
-*Listed directory [app](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app) *
+_Listed directory [app](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app) _
 
 ### Planner Response
 
 I will read `app/page.tsx` to understand what page is currently rendered at the root `/`.
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/page.tsx) _
 
 ### Planner Response
 
 I will check the contents of `features/blog` to see what skeleton files are there.
 
-*Listed directory [blog](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog) *
+_Listed directory [blog](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog) _
 
 ### Planner Response
 
 I will list `features/blog/components` to examine the newly created skeleton components.
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components) _
 
 ### Planner Response
 
 I will read `SURWASH_Blog_Platform_PRD_v2.md` to see the details of what the user's PRD requires for the frontend integration.
 
-*Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) *
+_Viewed [SURWASH_Blog_Platform_PRD_v2.md](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/SURWASH_Blog_Platform_PRD_v2.md) _
 
 ### Planner Response
 
 I will view the current `BlogCard.tsx` component to see its skeleton structure.
 
-*Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) *
+_Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) _
 
 ### Planner Response
 
 I will view the contents of `features/blog/components/StateFilter.tsx`.
 
-*Viewed [StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx) *
+_Viewed [StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx) _
 
 ### Planner Response
 
 I will view the `features/blog/lib/sanity.ts` file to see the current Sanity Client setup.
 
-*Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) *
+_Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) _
 
 ### Planner Response
 
 I will view `app/api/revalidate/route.ts` to inspect the revalidation API route.
 
-*Viewed [route.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/api/revalidate/route.ts) *
+_Viewed [route.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/api/revalidate/route.ts) _
 
 ### Planner Response
 
 I will check the existing typography design system styles in `shared/styles/typography.css`.
 
-*Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) *
+_Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) _
 
 ### Planner Response
 
 I will view `shared/utils/design-tokens.ts` to examine the TypeScript definitions for design tokens.
 
-*Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) *
+_Viewed [design-tokens.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/utils/design-tokens.ts) _
 
 ### Planner Response
 
 I will view the `RichTextRenderer.tsx` component to see its current implementation.
 
-*Viewed [RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx) *
+_Viewed [RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx) _
 
 ### Planner Response
 
-When I mentioned **tackling integrating the frontend UI further**, I meant taking the foundational skeleton setup we created and turning it into a fully functional, production-ready blog interface. 
+When I mentioned **tackling integrating the frontend UI further**, I meant taking the foundational skeleton setup we created and turning it into a fully functional, production-ready blog interface.
 
 Currently, the foundation compiles and is ready, but the actual pages, styling, and data-fetching logic are not yet complete. Specifically, this involves:
 
 ### 1. Creating the Blog Routes
+
 We need to create the actual route files under the `app` directory (which currently doesn't have a `blog` route):
-* **[app/blog/page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/page.tsx) [NEW]**: The primary blog listing page that lists posts, queries data via GROQ, and displays the state filter.
-* **[app/blog/[slug]/page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/[slug]/page.tsx) [NEW]**: The dynamic single blog post viewer that uses Next.js static generation parameters to pre-render individual posts.
+
+- **[app/blog/page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/page.tsx) [NEW]**: The primary blog listing page that lists posts, queries data via GROQ, and displays the state filter.
+- **[app/blog/[slug]/page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/[slug]/page.tsx) [NEW]**: The dynamic single blog post viewer that uses Next.js static generation parameters to pre-render individual posts.
 
 ### 2. Implementing the UI Components
+
 The components inside `features/blog/components` are currently skeleton stubs:
-* **[BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx)**: Needs a polished, premium card design that strictly implements the 4/5 portrait ratio cover layout, the left-edge blue vertical rule accent bar (`#1B9FD4`), and maps the horizontal logo signature.
-* **[StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx)**: Needs responsive, interactive pill-styling that filters the displayed posts on-the-fly.
-* **[RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx)**: Needs its commented-out `@portabletext/react` elements uncommented and styled to render heading tags, blockquotes, and lists according to SURWASH's typography guidelines (Fira Sans body, Unbounded accents).
+
+- **[BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx)**: Needs a polished, premium card design that strictly implements the 4/5 portrait ratio cover layout, the left-edge blue vertical rule accent bar (`#1B9FD4`), and maps the horizontal logo signature.
+- **[StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx)**: Needs responsive, interactive pill-styling that filters the displayed posts on-the-fly.
+- **[RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx)**: Needs its commented-out `@portabletext/react` elements uncommented and styled to render heading tags, blockquotes, and lists according to SURWASH's typography guidelines (Fira Sans body, Unbounded accents).
 
 ### 3. Wiring up Data-Fetching & SEO
-* **[lib/sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts)**: Needs additional GROQ queries (e.g., retrieving a post by slug) to feed the route pages.
-* **SEO Metadata**: Dynamically generating header page titles and descriptions using `generateMetadata()` for both the feed and detail routes.
 
-***
+- **[lib/sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts)**: Needs additional GROQ queries (e.g., retrieving a post by slug) to feed the route pages.
+- **SEO Metadata**: Dynamically generating header page titles and descriptions using `generateMetadata()` for both the feed and detail routes.
+
+---
 
 ### Summary of Work Done
-* Reviewed implementation plan, PRD, and active directory structure.
-* Checked details of existing blog stub components (`BlogCard`, `StateFilter`, `RichTextRenderer`, `sanity.ts`, and revalidate API route).
-* Explained the concrete layout, routing, and data-fetching tasks required to transition the blog from a skeleton to a finished UI.
+
+- Reviewed implementation plan, PRD, and active directory structure.
+- Checked details of existing blog stub components (`BlogCard`, `StateFilter`, `RichTextRenderer`, `sanity.ts`, and revalidate API route).
+- Explained the concrete layout, routing, and data-fetching tasks required to transition the blog from a skeleton to a finished UI.
 
 ### Next Steps
+
 Would you like me to create an implementation plan and start building out the routing pages and UI components, or are there other priorities you want to address first?
 
 ### User Input
@@ -575,127 +583,127 @@ Okay go ahead, but a key think to note is that the home page is blog there won't
 
 I will check the files inside `features/home` to see what the current home page looks like and decide how best to replace it with the blog listing.
 
-*Listed directory [home](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home) *
+_Listed directory [home](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home) _
 
 ### Planner Response
 
 I will list `features/home/pages` to see the home page layout.
 
-*Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages) *
+_Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages) _
 
 ### Planner Response
 
 I will view `features/home/pages/home-page.tsx` to understand the home page structure.
 
-*Viewed [home-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages/home-page.tsx) *
+_Viewed [home-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/home/pages/home-page.tsx) _
 
 ### Planner Response
 
 I will view the `.env.local` file to see what Sanity variables are currently configured.
 
-*Viewed [.env.local](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/.env.local) *
+_Viewed [.env.local](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/.env.local) _
 
 ### Planner Response
 
 I will view `app/layout.tsx` to check how the fonts (Fira Sans and Unbounded) are set up.
 
-*Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) *
+_Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) _
 
 ### Planner Response
 
 I will view `app/globals.css` to see the global styles.
 
-*Viewed [globals.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/globals.css) *
+_Viewed [globals.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/globals.css) _
 
 ### Planner Response
 
 I will check the subdirectories of the `shared` directory to see if there are reusable UI layout or header components.
 
-*Listed directory [shared](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared) *
+_Listed directory [shared](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared) _
 
 ### Planner Response
 
 I will list the contents of `shared/components` to see if there are standard components like headers or footers.
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components) _
 
 ### Planner Response
 
 I will list `shared/components/ui` to see existing UI components.
 
-*Listed directory [ui](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui) *
+_Listed directory [ui](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/components/ui) _
 
 ### Planner Response
 
 I will list `features/design-system` to see the structure of components in the design system.
 
-*Listed directory [design-system](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system) *
+_Listed directory [design-system](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system) _
 
 ### Planner Response
 
 I will list `features/design-system/pages` to see if there is a main showcase page.
 
-*Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages) *
+_Listed directory [pages](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages) _
 
 ### Planner Response
 
 I will view `features/design-system/pages/design-page.tsx` to understand the page structure.
 
-*Viewed [design-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages/design-page.tsx) *
+_Viewed [design-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/pages/design-page.tsx) _
 
 ### Planner Response
 
 I will list the components directory under `features/design-system` to see what showcase templates are already available.
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components) _
 
 ### Planner Response
 
 I will view `features/design-system/components/hero.tsx` to see if it contains any styled header or section we can reuse.
 
-*Viewed [hero.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/hero.tsx) *
+_Viewed [hero.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/design-system/components/hero.tsx) _
 
 ### Planner Response
 
 I will list the `public` directory to see the available brand assets and files.
 
-*Listed directory [public](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public) *
+_Listed directory [public](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public) _
 
 ### Planner Response
 
 I will list the `public/brand` directory to see the available brand files and images.
 
-*Listed directory [brand](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand) *
+_Listed directory [brand](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand) _
 
 ### Planner Response
 
 I will list `public/brand/logo` to find the exact filenames for logos to use in our header and components.
 
-*Listed directory [logo](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo) *
+_Listed directory [logo](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo) _
 
 ### Planner Response
 
 I will list `public/brand/logo/SVG` to find SVG logo paths.
 
-*Listed directory [SVG](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo/SVG) *
+_Listed directory [SVG](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo/SVG) _
 
 ### Planner Response
 
 I will list the PNG logo files to see what is inside.
 
-*Listed directory [PNG](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo/PNG) *
+_Listed directory [PNG](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/brand/logo/PNG) _
 
 ### Planner Response
 
 I will view `shared/styles/colors.css` to see the exact brand colors defined.
 
-*Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) *
+_Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) _
 
 ### Planner Response
 
 I will update the implementation plan to reflect the new direction: establishing the blog listing feed as the root homepage `/`, implementing the single post view at `/blog/[slug]`, and fleshing out the styling and data retrieval with the mock fallback for seamless testing.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -705,139 +713,137 @@ Please review the plan and let me know if it looks good to proceed with the exec
 
 ### User Input
 
-
-
 ### Planner Response
 
 I will view the `task.md` file to see the tasks and structure currently recorded.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will write the new tasks to `task.md` to track our progress during the execution.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will implement Task 1 by updating `features/blog/lib/sanity.ts` to include the mock fallback data and the GROQ query functions (with fallback triggers) for list, filter, and detail views.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `task.md` to mark the Data Integration & Mock Fallback task as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will implement the `BlogCard.tsx` design following the SURWASH Visual Identity Guidelines (including the 4/5 aspect ratio canvas, the 80/20 top-image/bottom-logo split, and the left-border accent bar).
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `features/blog/components/StateFilter.tsx` to include the "All Regions" option and implement responsive, high-fidelity pill styling matching the SURWASH brand.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will implement the complete Portable Text renderer in `RichTextRenderer.tsx` using `@portabletext/react` to map heading structures, blockquotes, lists, and links into SURWASH's typography guidelines.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to determine the exact line numbers for task 2.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to mark Task 2 as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will implement `features/blog/pages/blog-feed-page.tsx`. It will act as the server entry point fetching all posts for SEO and passing them to a client-side filter view for instant, sub-second geographical filtering.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create the client-side controller component `blog-feed-client.tsx` to handle the interactive state filters and render the grid of blog card items.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will implement `features/blog/pages/blog-detail-page.tsx` as a Server Component rendering the full post detail, metadata badge, back-navigation link, and the Portable Text rich content.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create the entry index file `features/blog/index.ts` to export our new page components cleanly for route consumption.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the `task.md` file to verify line numbers and mark Task 3 as completed.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to mark Task 3 as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `app/page.tsx` to render the server-side `BlogFeedPage` component directly as the root homepage of the application, removing the `'use client'` flag and the legacy placeholder home view.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create the `app/blog/page.tsx` file to handle canonical redirection from the `/blog` subdirectory back to the root page `/`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `package.json` to check the Next.js version, which helps verify if route parameters are synchronous or asynchronous.
 
-*Viewed [package.json](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/package.json) *
+_Viewed [package.json](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/package.json) _
 
 ### Planner Response
 
 I will implement the dynamic blog details route `app/blog/[slug]/page.tsx`. It will utilize Next.js 16's asynchronous `params` pattern, pre-render routes statically via `generateStaticParams()`, and dynamically generate meta tags for SEO via `generateMetadata()`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to confirm the line numbers for Task 4 and check it off.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to mark Task 4 as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the codebase compiles successfully with all TypeScript types, page paths, and component logic checking out.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -847,13 +853,13 @@ I will schedule a one-shot timer to verify the build output once it completes.
 
 I will fix the TypeScript compiler error in `app/blog/[slug]/page.tsx` by adding an explicit type parameter `slug: string` in the mapping function.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` again to verify if there are any other TypeScript issues.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -867,13 +873,13 @@ I will wait for the build command execution to finish.
 
 I will view `task.md` to locate the lines for Task 5.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to check off the build-verification subtask.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -883,19 +889,19 @@ I will use the browser subagent to verify the frontend UI manually by navigating
 
 I will create the `walkthrough.md` walkthrough document to detail the completed files, design elements, and compilation verification.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to verify the line range for Task 5.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to mark all tasks as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -908,15 +914,16 @@ I have completed the full frontend UI integration for the SURWASH Blog Platform 
 3. **Dynamic Post Viewer (`/blog/[slug]`)**: Set up [app/blog/[slug]/page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/%5Bslug%5D/page.tsx) to parse asynchronous route parameters (for Next.js 16/React 19 support), pre-render static HTML pages at build-time, and dynamically generate SEO meta descriptions.
 4. **Mock Fallback System**: Added a robust mock dataset to [features/blog/lib/sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) that automatically activates if your Sanity project credentials are not yet configured in `.env.local`, ensuring local development and production builds run successfully.
 5. **Brand Component Styling**:
-   * **[BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx)**: Styled to map the exact 4/5 portrait ratio, incorporating a bottom logo/seal white strip and a left-edge blue accent bar (`#1B9FD4`).
-   * **[StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx)**: Created a sticky filter bar with responsive, interactive state pills.
-   * **[RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx)**: Configured block, list, and hyperlink templates in Portable Text to enforce Fira Sans and Unbounded typography.
+   - **[BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx)**: Styled to map the exact 4/5 portrait ratio, incorporating a bottom logo/seal white strip and a left-edge blue accent bar (`#1B9FD4`).
+   - **[StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx)**: Created a sticky filter bar with responsive, interactive state pills.
+   - **[RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx)**: Configured block, list, and hyperlink templates in Portable Text to enforce Fira Sans and Unbounded typography.
 
-***
+---
 
 ### Verification Results
 
 The production build command (`npm run build`) completed successfully with zero TypeScript or routing compiler warnings:
+
 ```bash
 ✓ Compiled successfully in 3.9s
   Running TypeScript ...
@@ -939,9 +946,11 @@ Route (app)
 You can review the full implementation steps inside the updated [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) and [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) files.
 
 ### Next Steps & Action Required
-While trying to run automated browser checks, the browser tool encountered a sandbox compatibility error (`Playwright: Protocol error (Browser.setDownloadBehavior) - context management not supported`). 
+
+While trying to run automated browser checks, the browser tool encountered a sandbox compatibility error (`Playwright: Protocol error (Browser.setDownloadBehavior) - context management not supported`).
 
 Since your local dev server `npm run dev` is already running on your machine, **please navigate to [http://localhost:3000](http://localhost:3000)** to manually verify the styled blog interface:
+
 1. Verify the layout grids (4/5 ratio card banners, logo alignments, and left border displays).
 2. Click on the region filter pills (Abuja, Lagos, Kano, National) to see the instant state filtering in action.
 3. Click an article card to navigate to the dynamic detail pages and inspect the rich text layout.
@@ -950,35 +959,33 @@ Please let me know how it looks or if there are any adjustments you'd like to ma
 
 ### User Input
 
-I think we need to make the blog overview page roboust  to have things like 
+I think we need to make the blog overview page roboust to have things like
 
 A Category for Press Realease/News
-Latest Story like a marquee section 
+Latest Story like a marquee section
 Lest new new card at the bottom
-
 
 How do propose we go about this that we make the Section and categorization of the blogs, news updates etc look standard, and also on the backend (Sanity) well structure and scalable
 
-
-*Viewed [.env.local](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/.env.local) *
+_Viewed [.env.local](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/.env.local) _
 
 ### Planner Response
 
 I will search the workspace to see if there are any existing Sanity Studio configuration files or schema definitions within this codebase.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will write the updated implementation plan detailing the new schema additions (categories, featured flags) and the layout sections (live marquee ticker, hero spotlight, state filter grid, and policy documents registry).
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `task.md` with the task list representing the new plan.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -987,106 +994,104 @@ I have created the new [implementation_plan.md](file:///Users/user/.gemini/antig
 ### Proposed Architecture Summary
 
 1. **Sanity Schema & Data Layer**:
-   * Add a `postType` select option list (`press_release` / `news_update` / `field_report` / `policy_brief`) to the schema to classify posts clearly.
-   * Add an `isFeatured` boolean switch to flag the homepage spotlight hero story.
-   * Map the new environment token `SANITY_API_READ_TOKEN` in our client configuration.
+   - Add a `postType` select option list (`press_release` / `news_update` / `field_report` / `policy_brief`) to the schema to classify posts clearly.
+   - Add an `isFeatured` boolean switch to flag the homepage spotlight hero story.
+   - Map the new environment token `SANITY_API_READ_TOKEN` in our client configuration.
 2. **Visual Enhancements**:
-   * **Live News Ticker**: A pure CSS animated scrolling ticker below the header for breaking headlines.
-   * **Featured Spotlight**: A wide banner at the top of the feed layout representing the featured article (using the 3/4 landscape grid).
-   * **Geographic Grid**: Our existing filterable cards grid, display-oriented for News & Press Releases.
-   * **Document Registry**: A dedicated directory list at the bottom of the page designed for reports, briefs, and official circulars.
+   - **Live News Ticker**: A pure CSS animated scrolling ticker below the header for breaking headlines.
+   - **Featured Spotlight**: A wide banner at the top of the feed layout representing the featured article (using the 3/4 landscape grid).
+   - **Geographic Grid**: Our existing filterable cards grid, display-oriented for News & Press Releases.
+   - **Document Registry**: A dedicated directory list at the bottom of the page designed for reports, briefs, and official circulars.
 
 Please review the plan and let me know if it looks good to proceed with execution!
 
 ### User Input
 
-
-
-*Viewed [.env.local](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/.env.local) *
+_Viewed [.env.local](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/.env.local) _
 
 ### Planner Response
 
 I will implement Task 1 by updating the data queries and local mock datasets in `features/blog/lib/sanity.ts` to support the new categorization schema (`postType` and `isFeatured` variables) and correct API token bindings.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to track progress and find lines to update.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to mark Task 1 as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `BlogCard.tsx` to render category badges (Press Release, News, Field Report, Policy Brief) with harmonious brand colors alongside the state scope badges on the card featured image.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create `LatestNewsTicker.tsx` to render a live marquee news ticker. It will display the absolute newest news headlines and use a CSS marquee animation that pauses on hover.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create `HeroSpotlight.tsx` to implement the Hero featured article section using the SURWASH 3/4 landscape layout grid. It dedicates 75% of the card width to immersive imagery and 25% to details and logo placement.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create the `DocumentRegistry.tsx` component to present official documents, policy briefs, and strategic guidelines at the bottom of the overview page. It renders them as a publication directory list with quick links and badges.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to locate the lines for Task 2.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to check off Task 2.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `features/blog/pages/blog-feed-page.tsx` to integrate the marquee ticker component below the header and pass the fetched blog data to the client-side feed manager.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `features/blog/pages/blog-feed-client.tsx` to handle the Hero Spotlight rendering, the primary filterable News Grid, and the bottom Document Registry section. It dynamically adapts based on the active state filter.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to confirm the line range for Task 3.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to check off Task 3.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the codebase compiles successfully with the new components, data schema, and layout sections.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1108,19 +1113,19 @@ I will schedule another brief timer to wait for the page pre-rendering build pro
 
 I will view `task.md` to locate the lines for Task 4.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to mark all verification tasks as completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will write the updated `walkthrough.md` to detail the new features implemented: the category-tagging, the marquee news ticker, the 3/4 featured spotlight, the bottom publication registry table, and the successful Next.js build output.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -1135,13 +1140,14 @@ I have completed the implementation of the robust categorization and overview se
 5. **Publications Registry Table**: Created [DocumentRegistry.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/DocumentRegistry.tsx) at the bottom of the feed page, which displays reports and policy briefs in a formal, structured document library layout.
 6. **Layout Orchestration**: Refactored [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) to partition the spotlight, filterable news grid, and bottom document table. The spotlight automatically hides when specific state filters are active.
 
-***
+---
 
 ### Next Steps for Your Team
 
 To connect this layout to your Sanity Studio, your team needs to add these two fields to the `post` document schema in Sanity:
 
 1. **`postType` (Category / Type)**:
+
 ```typescript
 {
   name: 'postType',
@@ -1160,6 +1166,7 @@ To connect this layout to your Sanity Studio, your team needs to add these two f
 ```
 
 2. **`isFeatured` (Spotlight Hero)**:
+
 ```typescript
 {
   name: 'isFeatured',
@@ -1195,49 +1202,49 @@ The core issue is the blue is doing too much. It's the logo colour, the headline
 
 I will check the semantic color definitions in `shared/styles/semantics.css` to verify how typography colors are resolved.
 
-*Viewed [semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css) *
+_Viewed [semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css) _
 
 ### Planner Response
 
 I will modify `app/globals.css` to change the default text color from SURWASH Blue to Body Grey, and register the primary SURWASH brand colors as utility-ready Tailwind CSS theme tokens.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `BlogCard.tsx` to explicitly apply the new `text-surwash-navy`, `text-surwash-grey`, and `text-surwash-blue` classes, and soften the badge weights to `font-semibold` per the user's feedback.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `HeroSpotlight.tsx` to implement these same visual hierarchy improvements, setting the featured story title to Dark Navy (`text-surwash-navy`), description copy to Body Grey (`text-surwash-grey`), and adjusting the badges to a lighter font weight.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `DocumentRegistry.tsx` to update the document listing titles to Dark Navy (`text-surwash-navy`), body summaries to Body Grey (`text-surwash-grey`), and text link actions to `text-surwash-blue`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `blog-feed-page.tsx` to set the core feed title to Dark Navy (`text-surwash-navy`), the feed description to Body Grey (`text-surwash-grey`), and map the left accent bar explicitly to the brand blue token.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `blog-detail-page.tsx` to set the main post title to Dark Navy (`text-surwash-navy`), subheaders to Dark Navy, description and meta copy to Body Grey (`text-surwash-grey`), link indicators to Sky Blue (`text-surwash-blue`), and soften the badge weights to `font-semibold`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run the Next.js production build (`npm run build`) once more to verify that the color theme variables compile successfully and resolve correctly without warnings.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1251,17 +1258,17 @@ I will wait for the build process to finish.
 
 I will view `walkthrough.md` to check where to add the details of our visual hierarchy and contrast adjustments.
 
-*Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) *
+_Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) _
 
 ### Planner Response
 
 I will update the `walkthrough.md` document to include the visual hierarchy adjustments made for text contrast, typography roles, and tag weights.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
-I have implemented the styling and color hierarchy corrections based on your feedback. 
+I have implemented the styling and color hierarchy corrections based on your feedback.
 
 Here is a summary of the refinements made:
 
@@ -1269,17 +1276,18 @@ Here is a summary of the refinements made:
 
 1. **Default Text Color Fix**: Changed the global `--foreground` body text variable in [app/globals.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/globals.css) from `var(--text-primary)` (SURWASH Sky Blue) to `var(--text-secondary)` (Body Grey, `#5A6472`). This prevents body copy from rendering in a light blue and establishes a clean, highly readable baseline.
 2. **Tailwind v4 Theme Colors**: Registered explicit, utility-ready brand color classes in `@theme inline` inside [app/globals.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/globals.css):
-   * `text-surwash-navy` (`#1A3A5C`) — anchors headlines, page titles, and card headers.
-   * `text-surwash-blue` (`#1B9FD4`) — reserved for links, action triggers, and the left-edge vertical accent bar.
-   * `text-surwash-grey` (`#5A6472`) — applied to body copy.
+   - `text-surwash-navy` (`#1A3A5C`) — anchors headlines, page titles, and card headers.
+   - `text-surwash-blue` (`#1B9FD4`) — reserved for links, action triggers, and the left-edge vertical accent bar.
+   - `text-surwash-grey` (`#5A6472`) — applied to body copy.
 3. **Contrast-Enhanced Headlines**: Switched the titles on the feed page [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx), the spotlight component [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx), the card items [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx), and the detail page [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) to use `text-surwash-navy` explicitly. The sky-blue remains focused on action targets like the `"Read Article →"` link and the left vertical rule bars.
 4. **Softened Badge Weights**: Adjusted the tags (FEDERAL, PRESS RELEASE, etc.) in the blog card and spotlight views to use `font-semibold` instead of `font-bold` to drop their visual weight.
 
-***
+---
 
 ### 🚀 Verification Results
 
 The Next.js build compilation (`npm run build`) completed successfully with zero warnings or parameter errors:
+
 ```bash
 ✓ Compiled successfully in 4.5s
   Running TypeScript ...
@@ -1287,6 +1295,7 @@ The Next.js build compilation (`npm run build`) completed successfully with zero
   Generating static pages using 15 workers (0/13) ...
 ✓ Generating static pages using 15 workers (13/13) in 1027.8ms
 ```
+
 All dynamic article paths were compiled correctly. You can review the full visual adjustments log in [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md).
 
 Please refresh [http://localhost:3000](http://localhost:3000) on your machine. Let me know if the headings hierarchy and tag weights feel perfectly balanced now!
@@ -1300,31 +1309,31 @@ The card titles ("Federal Ministry Secures $150M...") are almost the same visual
 The fix is straightforward — those titles should be Dark Navy #1A3A5C. That's what the brand guidelines designate for headings: authoritative, deep, high contrast against white. The sky blue can stay on the left-edge accent bar and the "Read Article" links where it belongs.
 The irony is the colour is in the palette — it just hasn't been applied where it matters most. A one-line change in your Tailwind config or CSS variables would fix it across the whole site:
 css--color-heading: #1A3A5C;
-Then anywhere you have text-gray-* on titles, swap to text-[#1A3A5C] or whatever token maps to it. The page would feel significantly more structured and confident immediately.
+Then anywhere you have text-gray-\* on titles, swap to text-[#1A3A5C] or whatever token maps to it. The page would feel significantly more structured and confident immediately.
 
 ### Planner Response
 
 I will update `features/blog/pages/blog-feed-page.tsx` to set the core feed title "SURWASH Program Portal" to use the explicit Dark Navy hex color `text-[#1A3A5C]` and a high `font-black` weight.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `blog-feed-client.tsx` to explicitly apply the Dark Navy `text-[#1A3A5C]` color and `font-black` size layout to the main news grid section anchor.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `BlogCard.tsx` to set the card titles explicitly to `text-[#1A3A5C]` and `font-extrabold` to give them significant contrast against the card bodies.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run the Next.js production build (`npm run build`) once more to verify that the typography style updates compile successfully.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1338,7 +1347,7 @@ I will wait for the build process to finish.
 
 I will update `walkthrough.md` to document the final hierarchy adjustments made to anchors and titles using the explicit brand navy token.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -1352,11 +1361,12 @@ I have implemented the exact color adjustments to establish a strong, authoritat
 4. **Hero Spotlight**: Configured [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) to render its primary display title in `text-[#1A3A5C]` and `font-extrabold`.
 5. **Publications & Documents**: Adjusted all document titles (both desktop table rows and mobile lists) inside [DocumentRegistry.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/DocumentRegistry.tsx) and detail titles in [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) to explicitly bind to `text-[#1A3A5C]`.
 
-***
+---
 
 ### 🚀 Verification Results
 
 The Next.js production build (`npm run build`) completed successfully with zero compiler issues, pre-rendering all mock routes perfectly:
+
 ```bash
 ✓ Compiled successfully in 4.1s
   Running TypeScript ...
@@ -1375,31 +1385,31 @@ something is preventing the text from iherint teh update you just made
 
 I will search the stylesheet files for `9ca3af` or related variables to see where the light gray color is being applied or inherited from.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will search the styles directory for references to `neutral-400` to find if it is applied to text or headings.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will search the styles directory for other instances of `prefers-color-scheme` to see if there are other stylesheets overriding colors in dark mode.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will modify `shared/styles/semantics.css` to comment out the dark mode overrides block. This ensures that the typography colors (Dark Navy headings and Body Grey copy) remain stable and high-contrast, preventing the contrast collapse caused by OS dark mode settings on our light brand templates.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` again to ensure that the disabled dark mode variables compile cleanly.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1413,14 +1423,16 @@ I will wait for the build process to finish.
 
 I will update `walkthrough.md` to document the root cause of the contrast issue (the clashing prefers-color-scheme media query) and the solution we implemented to resolve it.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I found the root cause of the color hierarchy issue, and the fix is now fully in place!
 
 ### 🔍 The Root Cause
+
 The codebase template contains a dark mode media query inside [shared/styles/semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css):
+
 ```css
 @media (prefers-color-scheme: dark) {
   :root {
@@ -1430,14 +1442,17 @@ The codebase template contains a dark mode media query inside [shared/styles/sem
   }
 }
 ```
+
 Because your operating system has **Dark Mode** active, the browser was applying these overrides to the CSS variables. However, since the templates and container grids are styled with light brand backgrounds (like white and light-gray `bg-[var(--color-neutral-50)]`), the titles and text became white-on-white/light-gray-on-white, causing the text contrast to completely collapse.
 
 ### 🛠️ The Solution
-I commented out the `@media (prefers-color-scheme: dark)` overrides block in [shared/styles/semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css). 
+
+I commented out the `@media (prefers-color-scheme: dark)` overrides block in [shared/styles/semantics.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/semantics.css).
 
 This locks the variables to their correct brand definitions globally:
-* `--text-base` is locked to **Dark Navy (`#1A3A5C`)** for all headings.
-* `--text-secondary` is locked to **Body Grey (`#5A6472`)** for body text.
+
+- `--text-base` is locked to **Dark Navy (`#1A3A5C`)** for all headings.
+- `--text-secondary` is locked to **Body Grey (`#5A6472`)** for body text.
 
 The dev server will have immediately hot-reloaded these changes. If you look back at [http://localhost:3000](http://localhost:3000), the text and titles should now render in high-contrast Dark Navy `#1A3A5C`, restoring the proper visual hierarchy!
 
@@ -1449,13 +1464,13 @@ maybe this could have a page of it's own
 
 I will update the implementation plan to outline the addition of the new `/publications` route and its dedicated layout pages, while cleaning up the bottom of the main feed page.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `task.md` to reflect the new tasks for extracting the Publications Registry page.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -1465,109 +1480,107 @@ Please review the plan and let me know if it looks good to proceed with the chan
 
 ### User Input
 
-
-
 ### Planner Response
 
 I will implement the page route `app/publications/page.tsx` to mount the publications registry page.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create `features/blog/pages/publications-page.tsx` as a Server Component. It fetches the publications list, renders a dedicated hero banner, and configures the active state on the navigation header.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create `features/blog/pages/publications-client.tsx` to handle client-side state filtering for the dedicated publications page.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `features/blog/index.ts` to export the new `PublicationsPage` component.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `blog-feed-page.tsx` around the header lines to prepare for replacing the navigation links.
 
-*Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) *
+_Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) _
 
 ### Planner Response
 
 I will add the "Publications" link to the header in `blog-feed-page.tsx`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `blog-detail-page.tsx` to find the header navigation lines.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will update the header navigation and footer links in `blog-detail-page.tsx` to include "Publications".
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `blog-detail-page.tsx` footer links to verify the lines for replacement.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will add the "Publications" link to the footer in `blog-detail-page.tsx`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the footer lines in `blog-feed-page.tsx`.
 
-*Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) *
+_Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) _
 
 ### Planner Response
 
 I will add the "Publications" link to the footer in `blog-feed-page.tsx`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `blog-feed-client.tsx` to locate the DocumentRegistry inclusion and replace it with a clean call-to-action banner linking to `/publications`.
 
-*Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) *
+_Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) _
 
 ### Planner Response
 
 I will update `blog-feed-client.tsx` to remove the embedded `DocumentRegistry` at the bottom of the feed page and replace it with a clean, high-fidelity Call-to-Action banner that guides users to the new `/publications` page.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `task.md` to see the lines to update.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to check off tasks 1, 2, and 3.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run the Next.js production build (`npm run build`) to ensure that the new page route and client files compile successfully.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1581,19 +1594,19 @@ I will wait for the build process to finish.
 
 I will view `task.md` to locate the final lines for checking off verification.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update `task.md` to check off the final verification tasks.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `walkthrough.md` to document the dedicated `/publications` route implementation and cleanup.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -1602,26 +1615,30 @@ I have successfully extracted the Publications Registry into its own dedicated p
 Here is a summary of the structural changes made:
 
 ### 📁 New Dedicated Route `/publications`
+
 1. **Route Mapping**: Created [app/publications/page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/publications/page.tsx) to mount the new Publications view.
-2. **Page Structures**: 
-   * [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) handles the server-side fetch of document items and binds the active header styling.
-   * [publications-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-client.tsx) acts as the client-side state controller, providing a clean scope-filter pills bar at the top of the document database.
+2. **Page Structures**:
+   - [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) handles the server-side fetch of document items and binds the active header styling.
+   - [publications-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-client.tsx) acts as the client-side state controller, providing a clean scope-filter pills bar at the top of the document database.
 
 ### 🧹 Home Feed Page Cleanup & CTA
+
 1. **Feed Cleaning**: Removed the embedded publication table from the bottom of [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx). This keeps the main homepage feed focused strictly on news and press releases.
 2. **CTA Banner**: Appended a Call-to-Action banner at the bottom of the feed page that guides visitors looking for strategic roadmaps or briefs to the new Publications Registry page.
 
 ### 🔗 Global Navigation Header
-* Added the "Publications" link to all navigation headers and footers across the site:
-  * [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx)
-  * [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx)
-  * [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx)
 
-***
+- Added the "Publications" link to all navigation headers and footers across the site:
+  - [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx)
+  - [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx)
+  - [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx)
+
+---
 
 ### 🚀 Verification
 
 The Next.js build compilation (`npm run build`) completed successfully with the new static route compiled cleanly:
+
 ```bash
 Route (app)
 ├ ○ /
@@ -1641,13 +1658,13 @@ Something  we forgot to add is that the client also request that people should 
 
 I will write the updated implementation plan for adding the commenting system, detailing the moderation schema, the Next.js API route, and the comment list/form frontend components.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `task.md` to track progress for the commenting system implementation.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -1657,55 +1674,53 @@ Please review the plan and let me know if it looks good to proceed with executio
 
 ### User Input
 
-
-
 ### Planner Response
 
 I will implement the `app/api/comment/route.ts` secure API endpoint to handle comment submissions, authenticate with Sanity, and handle fallback operations gracefully in mock mode.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will modify `features/blog/lib/sanity.ts` to include the `Comment` type interface, update the GROQ query to retrieve approved comments linked to a post, and add mock comments to the fallback dataset.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will create `CommentForm.tsx` to handle comment validation, submission loader states, API requests, and success messages with local state updates.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will read the current implementation plan and task list to see where we left off and what steps we need to take next.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will now view the `implementation_plan.md` to see the planned details of the changes.
 
-*Viewed [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) *
+_Viewed [implementation_plan.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/implementation_plan.md) _
 
 ### Planner Response
 
 I will check `app/api/comment/route.ts` to see what is already implemented.
 
-*Viewed [route.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/api/comment/route.ts) *
+_Viewed [route.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/api/comment/route.ts) _
 
 ### Planner Response
 
 I will view the `features/blog/lib/sanity.ts` file to see the GROQ queries, interfaces, and fallback datasets.
 
-*Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) *
+_Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) _
 
 ### Planner Response
 
 I will view the contents of the `CommentForm.tsx` component to understand how it collects comment submissions.
 
-*Viewed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) *
+_Viewed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) _
 
 ### User Input
 
@@ -1715,91 +1730,91 @@ Continue
 
 I will view the contents of the `blog-detail-page.tsx` file to see how we need to refactor it to integrate comments listing and the `CommentForm`.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will search for occurrences of `BlogDetailPage` to see how it is imported and rendered.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view `app/blog/[slug]/page.tsx` to understand if it is a Server Component or Client Component.
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/%5Bslug%5D/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/blog/%5Bslug%5D/page.tsx) _
 
 ### Planner Response
 
 I will view the `features/blog/index.ts` file to see what exports it exposes.
 
-*Viewed [index.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/index.ts) *
+_Viewed [index.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/index.ts) _
 
 ### Planner Response
 
 I will search for occurrences of "Fira" to see how the Fira Sans font or style classes are configured in this project.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view `shared/styles/typography.css` to see what CSS classes are registered for Fira Sans.
 
-*Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) *
+_Viewed [typography.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/typography.css) _
 
 ### Planner Response
 
 I will view `app/layout.tsx` to verify if Material Symbols Outlined is imported and check how the fonts and styles are injected.
 
-*Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) *
+_Viewed [layout.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/layout.tsx) _
 
 ### Planner Response
 
 I will list the files in the `features/blog/components` directory to confirm where `CommentForm` and other components reside.
 
-*Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components) *
+_Listed directory [components](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components) _
 
 ### Planner Response
 
 I will search for `surwash-navy` in the workspace to make sure we use the correct colors and tailwind classes.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view `app/globals.css` to see the exact class configurations.
 
-*Viewed [globals.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/globals.css) *
+_Viewed [globals.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/globals.css) _
 
 ### Planner Response
 
 I will view `shared/styles/colors.css` to confirm the brand color hex codes match.
 
-*Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) *
+_Viewed [colors.css](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/shared/styles/colors.css) _
 
 ### Planner Response
 
 I will view lines 170 to 185 of `features/blog/pages/blog-detail-page.tsx` to get the exact surrounding context for editing.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will update `features/blog/pages/blog-detail-page.tsx` to handle comment display and forms by adding the client-side state.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update the `task.md` file to reflect that we've completed the Backend API, the Data Layer setup, and the UI components.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compiles cleanly.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1817,25 +1832,25 @@ I will spawn a browser subagent to verify the user experience on the blog detail
 
 I will view the `task.md` file to verify its lines for modification.
 
-*Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) *
+_Viewed [task.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/task.md) _
 
 ### Planner Response
 
 I will update the remaining checkboxes in `task.md` to show that the verification steps (Next.js build and browser verification flow) have successfully completed.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the current `walkthrough.md` to update it with details of the commenting system implementation.
 
-*Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) *
+_Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) _
 
 ### Planner Response
 
 I will write the updated `walkthrough.md` to document the newly completed commenting system features and embed the verification screenshot and webp video recording.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
@@ -1844,17 +1859,17 @@ I have successfully completed the implementation of the blog commenting system a
 ### Summary of Changes
 
 1. **Backend Integration**:
-   * Created a secure API route at [app/api/comment/route.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/api/comment/route.ts) that communicates with Sanity CMS to create comments in unapproved draft states (`approved: false`).
-   * Configured a sandbox fallback mode: if Sanity API project environment variables are not loaded, comment submissions print to the server console and simulate a client-side success response.
-   * Updated [features/blog/lib/sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) to define standard comments interfaces and fetch approved comments linked to posts.
+   - Created a secure API route at [app/api/comment/route.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/api/comment/route.ts) that communicates with Sanity CMS to create comments in unapproved draft states (`approved: false`).
+   - Configured a sandbox fallback mode: if Sanity API project environment variables are not loaded, comment submissions print to the server console and simulate a client-side success response.
+   - Updated [features/blog/lib/sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) to define standard comments interfaces and fetch approved comments linked to posts.
 
 2. **Frontend UI Components**:
-   * Developed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) to manage input validations and async POST submission states.
-   * Refactored [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) to render discussion lists, handle user comment submissions, and immediately append pending comments decorated with an **"Awaiting moderation"** badge.
+   - Developed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) to manage input validations and async POST submission states.
+   - Refactored [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) to render discussion lists, handle user comment submissions, and immediately append pending comments decorated with an **"Awaiting moderation"** badge.
 
 3. **Compilation & Verification**:
-   * Executed `npm run build` to confirm compilation success.
-   * Successfully ran browser checks to verify comment lists, form validation, mock fallbacks, and instantaneous client updates. 
+   - Executed `npm run build` to confirm compilation success.
+   - Successfully ran browser checks to verify comment lists, form validation, mock fallbacks, and instantaneous client updates.
 
 Please refer to the updated [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) to view the embedded screenshot and video recording of the working commenting system!
 
@@ -1866,55 +1881,55 @@ Take out the Design system amd Documentation from teh nav bar
 
 I will search for occurrences of "Design System" and "Docs" in the navigation bar code to find all files we need to update.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view `features/blog/pages/blog-feed-page.tsx` to find the navigation bar code.
 
-*Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) *
+_Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) _
 
 ### Planner Response
 
 I will view `features/blog/pages/publications-page.tsx` to inspect its header navigation.
 
-*Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) *
+_Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) _
 
 ### Planner Response
 
 I will edit `features/blog/pages/blog-feed-page.tsx` to remove the "Design System" and "Docs" links from the header navigation bar.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will edit `features/blog/pages/publications-page.tsx` to remove the "Design System" and "Docs" links from the header navigation bar.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view `features/blog/pages/blog-detail-page.tsx` to find the exact target lines for header navigation updates.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will view lines 95 to 110 of `features/blog/pages/blog-detail-page.tsx` to get the full link range.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will edit `features/blog/pages/blog-detail-page.tsx` to remove the "Design System" and "Docs" links from the header navigation bar.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compilation is still clean after removing the links from the navigation headers.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -1928,7 +1943,7 @@ I will wait for the build to finish. The system will wake me up automatically wh
 
 I will double-check for any remaining `/docs` navigation link references in the project files to ensure complete cleanup.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
@@ -1955,19 +1970,19 @@ Dark navy (#1A3A5C) background across the full width. A small sky-blue pill on t
 
 I will open and inspect `LatestNewsTicker.tsx` to understand the styling of the ticker bar.
 
-*Viewed [LatestNewsTicker.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/LatestNewsTicker.tsx) *
+_Viewed [LatestNewsTicker.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/LatestNewsTicker.tsx) _
 
 ### Planner Response
 
 I will update the `LatestNewsTicker.tsx` component to reflect the new, premium dark navy design with a sky-blue accent pill and clean dot separators.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run a production compile check to make sure the changes build successfully.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### User Input
 
@@ -1977,127 +1992,127 @@ Now I need you to use your mobile responsiveness and accesibility skills improve
 
 I will check the guidelines in the `a11y-debugging` skill to understand the recommended process for auditing and optimizing the site's accessibility and mobile responsiveness.
 
-*Viewed [SKILL.md](file:///Users/user/.gemini/config/plugins/chrome-devtools-plugin/skills/a11y-debugging/SKILL.md) *
+_Viewed [SKILL.md](file:///Users/user/.gemini/config/plugins/chrome-devtools-plugin/skills/a11y-debugging/SKILL.md) _
 
 ### Planner Response
 
 I will search the codebase for references to "hamburger", "menu", "isOpen", or header navigation components to see if there is an existing responsive mobile header.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view `blog-feed-client.tsx` to check for mobile responsiveness and accessibility of the main blog layout, filters, and cards.
 
-*Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) *
+_Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) _
 
 ### Planner Response
 
 I will view `StateFilter.tsx` to check if the state filter buttons are accessible (have proper ARIA roles, focus outlines, etc.) and responsive on mobile.
 
-*Viewed [StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx) *
+_Viewed [StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx) _
 
 ### Planner Response
 
 I will view the `HeroSpotlight.tsx` component to inspect its layout behavior on mobile screens and keyboard focus attributes.
 
-*Viewed [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) *
+_Viewed [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) _
 
 ### Planner Response
 
 I will view the `BlogCard.tsx` component to inspect focus states, keyboard navigation attributes, and image layouts on mobile devices.
 
-*Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) *
+_Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) _
 
 ### Planner Response
 
 I will check the exact line ranges for editing in `BlogCard.tsx`.
 
-*Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) *
+_Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) _
 
 ### Planner Response
 
 I will view lines 90 to 114 of `features/blog/components/BlogCard.tsx`.
 
-*Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) *
+_Viewed [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) _
 
 ### Planner Response
 
 I will update the `BlogCard.tsx` component to make the entire card clickable, improve keyboard navigation, and add visible focus rings.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will inspect the context in `HeroSpotlight.tsx` for updating it with the single-focus clickable overlay pattern.
 
-*Viewed [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) *
+_Viewed [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) _
 
 ### Planner Response
 
 I will view lines 75 to 100 of `features/blog/components/HeroSpotlight.tsx`.
 
-*Viewed [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) *
+_Viewed [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx) _
 
 ### Planner Response
 
 I will update `HeroSpotlight.tsx` to consolidate focus navigation and make the entire featured card clickable using the card-link pattern.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the `CommentForm.tsx` inputs and button structures to implement the mobile font-size auto-zoom fix and add focus rings.
 
-*Viewed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) *
+_Viewed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) _
 
 ### Planner Response
 
 I will update the form inputs and submit button in `CommentForm.tsx` to optimize them for mobile and screen-reader accessibility. This includes changing the input font size to `text-base sm:text-sm` (preventing iOS auto-zoom on focus) and adding visible keyboard focus rings.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the file `CommentForm.tsx` to verify the state after the replacement.
 
-*Viewed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) *
+_Viewed [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) _
 
 ### Planner Response
 
 I will run a command to restore the `CommentForm.tsx` file from git.
 
-*User accepted the command `git checkout features/blog/components/CommentForm.tsx`*
+_User accepted the command `git checkout features/blog/components/CommentForm.tsx`_
 
 ### Planner Response
 
 I will rewrite the `CommentForm.tsx` file with the correct contents, including the responsiveness auto-zoom fixes and focus ring styles.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will edit `features/blog/components/StateFilter.tsx` to add accessible ARIA group roles, `aria-pressed` state properties, and keyboard-visible focus rings.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will check the exact style block in `LatestNewsTicker.tsx` to add keyboard pause behavior.
 
-*Viewed [LatestNewsTicker.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/LatestNewsTicker.tsx) *
+_Viewed [LatestNewsTicker.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/LatestNewsTicker.tsx) _
 
 ### Planner Response
 
 I will update `LatestNewsTicker.tsx` to pause the news ticker animation whenever a keyboard user focuses any of the scrolling links, and add standard ARIA attributes for screen reader control.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run another compile check to verify these semantic and key navigation improvements.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -2112,19 +2127,23 @@ I will pause to wait for the compilation to finish. The system will resume execu
 I have implemented several mobile responsiveness and accessibility (a11y) improvements to optimize the user experience across touch screens, keyboard inputs, and screen readers:
 
 ### 1. Touch & Screen Reader Friendly Cards
-* **Click Targets**: Implemented the absolute pseudo-element overlay pattern (`after:absolute after:inset-0`) on both [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) and [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx). This extends the tap/click hit area to cover the entire card structure, making it much easier for mobile users to touch.
-* **Consolidated Tab Navigation**: Removed nested duplicate links (e.g. wrapping both title and CTA button in links to the same destination). This ensures keyboard and screen reader users only encounter **exactly one tab-stop per card**, avoiding redundant clicks or speech repetitions.
+
+- **Click Targets**: Implemented the absolute pseudo-element overlay pattern (`after:absolute after:inset-0`) on both [BlogCard.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/BlogCard.tsx) and [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx). This extends the tap/click hit area to cover the entire card structure, making it much easier for mobile users to touch.
+- **Consolidated Tab Navigation**: Removed nested duplicate links (e.g. wrapping both title and CTA button in links to the same destination). This ensures keyboard and screen reader users only encounter **exactly one tab-stop per card**, avoiding redundant clicks or speech repetitions.
 
 ### 2. Form Input Auto-Zoom Prevention on iOS
-* **Responsive Font Sizing**: Configured form fields in [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) with `text-base sm:text-sm`. This provides a clean `text-sm` size on desktop while maintaining a `text-base` (16px) size on mobile, which **prevents iOS Safari from forcing an automatic zoom-in when selecting fields** (a common mobile UX issue).
+
+- **Responsive Font Sizing**: Configured form fields in [CommentForm.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/CommentForm.tsx) with `text-base sm:text-sm`. This provides a clean `text-sm` size on desktop while maintaining a `text-base` (16px) size on mobile, which **prevents iOS Safari from forcing an automatic zoom-in when selecting fields** (a common mobile UX issue).
 
 ### 3. Keyboard-Controllable News Ticker
-* **Focus Pause Behavior**: In [LatestNewsTicker.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/LatestNewsTicker.tsx), updated the marquee styles to pause the scrolling animation whenever a keyboard user focuses any of the links (`.animate-ticker:focus-within { animation-play-state: paused; }`). This ensures users navigating via keyboard can easily select and read updates without chasing moving targets.
-* **Semantic Region**: Added `role="region"` and `aria-label="Latest program updates news ticker"` to help assistive technologies locate and label the ticker.
+
+- **Focus Pause Behavior**: In [LatestNewsTicker.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/LatestNewsTicker.tsx), updated the marquee styles to pause the scrolling animation whenever a keyboard user focuses any of the links (`.animate-ticker:focus-within { animation-play-state: paused; }`). This ensures users navigating via keyboard can easily select and read updates without chasing moving targets.
+- **Semantic Region**: Added `role="region"` and `aria-label="Latest program updates news ticker"` to help assistive technologies locate and label the ticker.
 
 ### 4. Semantic Filter Landmarks & Focus States
-* **Accessibility markup**: Updated [StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx) filter buttons to declare `aria-pressed={isActive}` and grouped them with a descriptive group label (`role="group" aria-label="Filter updates by regional scope"`).
-* **Keyboard outlines**: Added explicit focus outlines (`outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-surwash-blue`) to buttons and link structures so screen tab highlights are always clearly visible.
+
+- **Accessibility markup**: Updated [StateFilter.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/StateFilter.tsx) filter buttons to declare `aria-pressed={isActive}` and grouped them with a descriptive group label (`role="group" aria-label="Filter updates by regional scope"`).
+- **Keyboard outlines**: Added explicit focus outlines (`outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-surwash-blue`) to buttons and link structures so screen tab highlights are always clearly visible.
 
 ### User Input
 
@@ -2134,25 +2153,25 @@ I have uploaded image inside the the @[public/blog-banners] replace the placehol
 
 I will list the contents of the `public/blog-banners` directory to see the available image filenames.
 
-*Listed directory [blog-banners](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners) *
+_Listed directory [blog-banners](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners) _
 
 ### Planner Response
 
 I will check the image URLs in `features/blog/lib/sanity.ts` for the mock posts.
 
-*Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) *
+_Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) _
 
 ### Planner Response
 
 I will update the mock post database in `sanity.ts` to use the locally uploaded banner images from the `public/blog-banners` folder for posts 2 through 6, leaving the national sanitation roadmap featured image intact as requested.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compiling remains clean after linking the local images.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -2166,50 +2185,51 @@ I will wait for the build to finish. The system will wake me up automatically wh
 
 I will view the relevant section in `walkthrough.md` to add the image replacement details.
 
-*Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) *
+_Viewed [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md) _
 
 ### Planner Response
 
 I will update `walkthrough.md` to document the image mapping change for the mock posts.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
-I have successfully replaced the placeholder Unsplash images with the local high-quality banner images inside the `public/blog-banners` folder for posts 2 through 6. 
+I have successfully replaced the placeholder Unsplash images with the local high-quality banner images inside the `public/blog-banners` folder for posts 2 through 6.
 
 Here is the image mapping applied in [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts):
-* **Post 2** (*Federal Ministry Secures $150M extension*): [/blog-banners/IMG_2832.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2832.jpg)
-* **Post 3** (*Abuja Clears Pipeline Bottlenecks*): [/blog-banners/IMG_2829.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2829.jpg)
-* **Post 4** (*Sanitation and Solar Boreholes in Kano*): [/blog-banners/IMG_2873.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2873.jpg)
-* **Post 5** (*Lagos Partners with Local Developers*): [/blog-banners/IMG_2875.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2875.jpg)
-* **Post 6** (*FCT Urban Hygiene Guideline*): [/blog-banners/IMG_2829.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2829.jpg)
 
-*Note: The primary featured image for the **SURWASH Strategic National Sanitation Roadmap 2026-2030** was left unmodified, as you requested.*
+- **Post 2** (_Federal Ministry Secures $150M extension_): [/blog-banners/IMG_2832.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2832.jpg)
+- **Post 3** (_Abuja Clears Pipeline Bottlenecks_): [/blog-banners/IMG_2829.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2829.jpg)
+- **Post 4** (_Sanitation and Solar Boreholes in Kano_): [/blog-banners/IMG_2873.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2873.jpg)
+- **Post 5** (_Lagos Partners with Local Developers_): [/blog-banners/IMG_2875.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2875.jpg)
+- **Post 6** (_FCT Urban Hygiene Guideline_): [/blog-banners/IMG_2829.jpg](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/IMG_2829.jpg)
+
+_Note: The primary featured image for the **SURWASH Strategic National Sanitation Roadmap 2026-2030** was left unmodified, as you requested._
 
 The build compiled successfully, and the local dev server is serving the static assets correctly. All documentation has been updated in [walkthrough.md](file:///Users/user/.gemini/antigravity-ide/brain/6a2cfe23-bd14-4e34-9013-0aeb8f9309cb/walkthrough.md).
 
 ### User Input
 
-Use this for this@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/public/blog-banners/surwash.webp] for the "SURWASH Strategic National Sanitation Roadmap 2026-2030" 
+Use this for this@[/Users/user/Desktop/El-Roy/Professional Career/Frontend Development/Projects/surwash-blog-website/public/blog-banners/surwash.webp] for the "SURWASH Strategic National Sanitation Roadmap 2026-2030"
 
 ### Planner Response
 
 I will view lines 26 to 45 of `features/blog/lib/sanity.ts` to locate the featured post's image URL.
 
-*Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) *
+_Viewed [sanity.ts](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/lib/sanity.ts) _
 
 ### Planner Response
 
 I will update the featured post's `imageUrl` in `sanity.ts` to reference the newly specified `/blog-banners/surwash.webp`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compilation is successful with all updated images.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -2224,6 +2244,7 @@ I will pause to let the build run. The system will resume execution when the bui
 I have successfully updated the featured post **"SURWASH Strategic National Sanitation Roadmap 2026-2030"** image to point to the newly specified local image at [/blog-banners/surwash.webp](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/public/blog-banners/surwash.webp).
 
 The Next.js production build completed and compiled successfully:
+
 ```
 ✓ Compiled successfully in 4.5s
   Running TypeScript ...
@@ -2235,31 +2256,31 @@ All blog posts now cleanly load your official custom banners directly from the l
 
 ### User Input
 
-Change the page tiles from SURWASH Program Portal to SURWASH Blogs 
+Change the page tiles from SURWASH Program Portal to SURWASH Blogs
 
 ### Planner Response
 
 I will search for "SURWASH Program Portal" to locate which files contain this title so we can update it.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view lines 40 to 60 of `features/blog/pages/blog-feed-page.tsx` to get the context for the replacement.
 
-*Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) *
+_Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) _
 
 ### Planner Response
 
 I will edit the page title in `blog-feed-page.tsx` to display "SURWASH Blogs".
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to confirm the production build completes successfully after editing the main page title.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -2274,6 +2295,7 @@ I will pause to wait for the compilation to finish. The system will resume execu
 I have successfully updated the main page title in [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) from **"SURWASH Program Portal"** to **"SURWASH Blogs"**.
 
 The application compiled and built successfully:
+
 ```
 ✓ Compiled successfully in 4.9s
   Running TypeScript ...
@@ -2291,49 +2313,49 @@ Lets add a search icon
 
 I will search for references to "search" in the blog feature folder to see if search functionality or UI is already implemented anywhere.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will search for any "search" keywords across the entire project repository.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will add the search icon button to the header navigation in `blog-feed-page.tsx`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the context in `publications-page.tsx` to find the exact target lines.
 
-*Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) *
+_Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) _
 
 ### Planner Response
 
 I will add the search icon button to the header navigation in `publications-page.tsx`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the relevant navigation lines of `blog-detail-page.tsx` to find the exact target content.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will add the search icon button to the header navigation in `blog-detail-page.tsx`.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compiling is successful with the search icons added.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -2363,73 +2385,73 @@ Please minize the usage of this outline across the design layout only use were n
 
 I will inspect `RichTextRenderer.tsx` to see if headings inside the article body use the vertical blue accent lines.
 
-*Viewed [RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx) *
+_Viewed [RichTextRenderer.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/RichTextRenderer.tsx) _
 
 ### Planner Response
 
 I will view lines 43 to 53 of `features/blog/pages/blog-feed-page.tsx` to find the exact hero container lines.
 
-*Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) *
+_Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) _
 
 ### Planner Response
 
 I will edit `features/blog/pages/blog-feed-page.tsx` to remove the vertical blue accent border from the main hero section.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view lines 35 to 45 of `features/blog/pages/publications-page.tsx`.
 
-*Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) *
+_Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) _
 
 ### Planner Response
 
 I will edit `features/blog/pages/publications-page.tsx` to remove the vertical blue accent border from the publications hero section.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view lines 50 to 60 of `features/blog/pages/blog-feed-client.tsx` to find the grid section header.
 
-*Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) *
+_Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) _
 
 ### Planner Response
 
 I will edit `features/blog/pages/blog-feed-client.tsx` to remove the vertical blue accent border from the news section header.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will edit `features/blog/components/BlogCard.tsx` to remove the vertical blue accent border from the card bodies.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will edit `features/blog/components/HeroSpotlight.tsx` to remove the vertical blue accent border from the Spotlight description box.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view lines 125 to 140 of `features/blog/pages/blog-detail-page.tsx`.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will edit `features/blog/pages/blog-detail-page.tsx` to remove the vertical blue accent border from the main article heading.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compiling is successful after removing the border layouts.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
@@ -2444,6 +2466,7 @@ I will wait for the build to finish. The system will wake me up automatically wh
 I have minimized the usage of the vertical blue accent border across the site, removing it from layout containers, cards, and section headers where it created visual clutter.
 
 Specifically, the `border-l-4 border-surwash-blue` outline has been removed from:
+
 1. **Feed Hero Section**: [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx)
 2. **Publications Hero Section**: [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx)
 3. **Feed Grid Section Header**: [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx)
@@ -2451,7 +2474,7 @@ Specifically, the `border-l-4 border-surwash-blue` outline has been removed from
 5. **Hero Spotlight Sidebar**: [HeroSpotlight.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/HeroSpotlight.tsx)
 6. **Blog Detail Title**: [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx)
 
-It is now **only** used in the article text body where it serves as a semantic highlighter (such as next to blockquotes and key headers like *Core Roadmap Milestones*), keeping the design extremely clean, modern, and aligned with your request.
+It is now **only** used in the article text body where it serves as a semantic highlighter (such as next to blockquotes and key headers like _Core Roadmap Milestones_), keeping the design extremely clean, modern, and aligned with your request.
 
 The Next.js build completed successfully.
 
@@ -2463,115 +2486,115 @@ is the search icon functional
 
 I will search for `page.tsx` files in the `app` directory to see which routes are static.
 
-*Grep searched codebase*
+_Grep searched codebase_
 
 ### Planner Response
 
 I will view `app/page.tsx` to see how the home page is rendered.
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/page.tsx) _
 
 ### Planner Response
 
 I will view `app/publications/page.tsx` to see how it is rendered.
 
-*Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/publications/page.tsx) *
+_Viewed [page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/app/publications/page.tsx) _
 
 ### Planner Response
 
 I will view `publications-client.tsx` to understand its filtering logic and see how to integrate search query parameters.
 
-*Viewed [publications-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-client.tsx) *
+_Viewed [publications-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-client.tsx) _
 
 ### Planner Response
 
 I will view `DocumentRegistry.tsx` to see how the documents are rendered and filtered.
 
-*Viewed [DocumentRegistry.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/DocumentRegistry.tsx) *
+_Viewed [DocumentRegistry.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/DocumentRegistry.tsx) _
 
 ### Planner Response
 
 I will create a shared, responsive, and accessible client navigation component `Header.tsx` inside `features/blog/components` that contains the interactive search toggle and search input, debounced query sync, and Next.js Suspense wrappers.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the bottom lines of `features/blog/pages/blog-feed-page.tsx` to find the exact closing structures.
 
-*Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) *
+_Viewed [blog-feed-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-page.tsx) _
 
 ### Planner Response
 
 I will edit `blog-feed-page.tsx` to import the shared `Header` component, wrap the client-side component in a `Suspense` boundary, and replace the static header tags.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view lines 50 to 85 of `features/blog/pages/publications-page.tsx` to find the target tags for editing.
 
-*Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) *
+_Viewed [publications-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/publications-page.tsx) _
 
 ### Planner Response
 
 I will edit `publications-page.tsx` to use the shared `Header` component and wrap the `PublicationsClient` in a `Suspense` boundary.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view lines 1 to 20 of `features/blog/pages/blog-detail-page.tsx`.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will view lines 80 to 115 of `features/blog/pages/blog-detail-page.tsx` to align the line numbers correctly.
 
-*Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) *
+_Viewed [blog-detail-page.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-detail-page.tsx) _
 
 ### Planner Response
 
 I will edit `blog-detail-page.tsx` to import the shared `Header` component and replace the static header tags.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the imports and top state declarations in `blog-feed-client.tsx` to integrate the search parameters and filtering logic.
 
-*Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) *
+_Viewed [blog-feed-client.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/pages/blog-feed-client.tsx) _
 
 ### Planner Response
 
 I will update `features/blog/pages/blog-feed-client.tsx` to read the URL search query parameter and filter the posts list in real time.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will update `DocumentRegistry.tsx` to filter documents matching the URL search query parameter and render an empty state message if no publications match.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will view the relevant lines of `DocumentRegistry.tsx` to locate the main block's section header and remove its vertical border as well.
 
-*Viewed [DocumentRegistry.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/DocumentRegistry.tsx) *
+_Viewed [DocumentRegistry.tsx](file:///Users/user/Desktop/El-Roy/Professional%20Career/Frontend%20Development/Projects/surwash-blog-website/features/blog/components/DocumentRegistry.tsx) _
 
 ### Planner Response
 
 I will edit `DocumentRegistry.tsx` to remove the vertical blue border outline from the main publications table header.
 
-*Edited relevant file*
+_Edited relevant file_
 
 ### Planner Response
 
 I will run `npm run build` to verify the application compiling is successful after introducing the search filtering logic.
 
-*User accepted the command `npm run build`*
+_User accepted the command `npm run build`_
 
 ### Planner Response
 
