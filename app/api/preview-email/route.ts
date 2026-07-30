@@ -38,7 +38,7 @@ export async function GET(request: Request) {
         editionNumber,
         month,
         "coverImageUrl": coverImage.asset->url,
-        "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt asc, _createdAt asc) {
+        "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt desc, _createdAt desc) {
           _id,
           title,
           "slug": slug.current,
@@ -66,7 +66,7 @@ export async function GET(request: Request) {
         editionNumber,
         month,
         "coverImageUrl": coverImage.asset->url,
-        "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt asc, _createdAt asc) {
+        "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt desc, _createdAt desc) {
           _id,
           title,
           "slug": slug.current,

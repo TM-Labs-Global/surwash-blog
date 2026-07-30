@@ -31,7 +31,7 @@ export function SendEmailBlastAction(props: any) {
           _id,
           title,
           theme,
-          "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt asc, _createdAt asc) {
+          "posts": *[_type == "post" && edition._ref == ^._id] | order(publishedAt desc, _createdAt desc) {
             _id,
             title,
             postType

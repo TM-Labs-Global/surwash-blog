@@ -116,7 +116,7 @@ export const getEditionsWithPosts = async (): Promise<NewsletterEdition[]> => {
     // For each edition, fetch its linked posts
     const editionsWithPosts = await Promise.all(
       editions.map(async (edition: NewsletterEdition) => {
-        const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt asc, _createdAt asc) {
+        const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
           _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
           "imageUrl": mainImage.asset->url, postType, isFeatured
         }`;
@@ -147,7 +147,7 @@ export const getEditionBySlug = async (slug: string): Promise<NewsletterEdition 
     const edition = await sanityClient.fetch(editionQuery, { slug }, { next: { tags: [`edition-${slug}`] } });
     if (!edition) return null;
 
-    const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt asc, _createdAt asc) {
+    const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
       _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
       "imageUrl": mainImage.asset->url, postType, isFeatured
     }`;
