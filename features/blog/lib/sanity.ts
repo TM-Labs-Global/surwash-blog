@@ -42,6 +42,7 @@ export interface Post {
   content: any;
   postType: string;
   isFeatured?: boolean;
+  approvalStatus?: string;
   comments?: Comment[];
   edition?: EditionReference;
 }
@@ -96,6 +97,17 @@ export const sanityClient = isConfigured
     })
   : null;
 
+// Helper to eliminate duplicate articles (published vs draft versions)
+const dedupePosts = (posts: Post[]): Post[] => {
+  const seen = new Set<string>();
+  return (posts || []).filter((post) => {
+    const cleanId = post._id.replace(/^drafts\./, '');
+    if (seen.has(cleanId)) return false;
+    seen.add(cleanId);
+    return true;
+  });
+};
+
 // Fetch all newsletter editions with their linked articles (for homepage)
 export const getEditionsWithPosts = async (): Promise<NewsletterEdition[]> => {
   if (!sanityClient) {
@@ -105,7 +117,7 @@ export const getEditionsWithPosts = async (): Promise<NewsletterEdition[]> => {
 
   try {
     // Fetch editions ordered newest first
-    const editionsQuery = `*[_type == "newsletterEdition"] | order(month desc) {
+    const editionsQuery = `*[_type == "newsletterEdition" && !(_id in path("drafts.**"))] | order(month desc) {
       _id, title, slug, theme, themeDescription, editionNumber, month, publishedAt,
       "coverImage": coverImage { asset->{ url }, alt }
     }`;
@@ -116,12 +128,12 @@ export const getEditionsWithPosts = async (): Promise<NewsletterEdition[]> => {
     // For each edition, fetch its linked posts
     const editionsWithPosts = await Promise.all(
       editions.map(async (edition: NewsletterEdition) => {
-        const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
+        const postsQuery = `*[_type == "post" && !(_id in path("drafts.**")) && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
           _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
           "imageUrl": mainImage.asset->url, postType, isFeatured
         }`;
-        const posts = await sanityClient!.fetch(postsQuery, { editionId: edition._id }, { next: { tags: ['posts', `edition-${edition._id}`] } });
-        return { ...edition, posts: posts || [] };
+        const rawPosts = await sanityClient!.fetch(postsQuery, { editionId: edition._id }, { next: { tags: ['posts', `edition-${edition._id}`] } });
+        return { ...edition, posts: dedupePosts(rawPosts) };
       })
     );
 
@@ -140,20 +152,20 @@ export const getEditionBySlug = async (slug: string): Promise<NewsletterEdition 
   }
 
   try {
-    const editionQuery = `*[_type == "newsletterEdition" && slug.current == $slug][0] {
+    const editionQuery = `*[_type == "newsletterEdition" && !(_id in path("drafts.**")) && slug.current == $slug][0] {
       _id, title, slug, theme, themeDescription, editionNumber, month, publishedAt,
       "coverImage": coverImage { asset->{ url }, alt }
     }`;
     const edition = await sanityClient.fetch(editionQuery, { slug }, { next: { tags: [`edition-${slug}`] } });
     if (!edition) return null;
 
-    const postsQuery = `*[_type == "post" && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
+    const postsQuery = `*[_type == "post" && !(_id in path("drafts.**")) && edition._ref == $editionId && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
       _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
       "imageUrl": mainImage.asset->url, postType, isFeatured
     }`;
-    const posts = await sanityClient.fetch(postsQuery, { editionId: edition._id }, { next: { tags: [`edition-${slug}`, 'posts'] } });
+    const rawPosts = await sanityClient.fetch(postsQuery, { editionId: edition._id }, { next: { tags: [`edition-${slug}`, 'posts'] } });
 
-    return { ...edition, posts: posts || [] };
+    return { ...edition, posts: dedupePosts(rawPosts) };
   } catch (error) {
     console.error('Sanity edition query failed:', error);
     return null;
@@ -186,7 +198,7 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
 
   try {
     const query = stateScope === 'all' || !stateScope
-      ? `*[_type == "post" && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
+      ? `*[_type == "post" && !(_id in path("drafts.**")) && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
           _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
           "imageUrl": mainImage.asset->url,
           content[] {
@@ -207,7 +219,7 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
           },
           postType, isFeatured
         }`
-      : `*[_type == "post" && stateScope == $stateScope && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
+      : `*[_type == "post" && !(_id in path("drafts.**")) && stateScope == $stateScope && approvalStatus == "approved"] | order(publishedAt desc, _createdAt desc) {
           _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
           "imageUrl": mainImage.asset->url,
           content[] {
@@ -230,7 +242,7 @@ export const getPostsByState = async (stateScope: string): Promise<Post[]> => {
         }`;
     
     const results = await sanityClient.fetch(query, { stateScope }, { next: { tags: ['posts'] } });
-    return results || [];
+    return dedupePosts(results);
   } catch (error) {
     console.error('Sanity query failed:', error);
     return [];
@@ -245,7 +257,7 @@ export const getPostBySlug = async (slug: string): Promise<Post | null> => {
   }
 
   try {
-    const query = `*[_type == "post" && slug.current == $slug && approvalStatus == "approved"][0] {
+    const query = `*[_type == "post" && !(_id in path("drafts.**")) && slug.current == $slug && approvalStatus == "approved"][0] {
       _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
       "imageUrl": mainImage.asset->url,
       "mainImage": mainImage { asset->{ url, metadata { dimensions { width, height } } }, alt },
@@ -326,3 +338,49 @@ export const getTickerPages = async (): Promise<TickerPage[]> => {
     return [];
   }
 };
+
+// Fetch a single draft or unapproved post by ID (for live draft preview)
+export const getDraftPostById = async (id: string): Promise<Post | null> => {
+  if (!sanityClient) {
+    console.warn('Sanity client not configured.');
+    return null;
+  }
+
+  try {
+    const cleanId = id.replace(/^drafts\./, '');
+    const query = `*[_type == "post" && (_id == $id || _id == $draftId || _id == $cleanId)][0] {
+      _id, title, slug, stateScope, _createdAt, publishedAt, metaDescription,
+      "imageUrl": mainImage.asset->url,
+      "mainImage": mainImage { asset->{ url, metadata { dimensions { width, height } } }, alt },
+      content[] {
+        ...,
+        _type == "image" => {
+          ...,
+          asset-> {
+            _id,
+            url,
+            metadata {
+              dimensions {
+                width,
+                height
+              }
+            }
+          }
+        }
+      },
+      postType, isFeatured, approvalStatus,
+      "edition": edition->{ _id, title, slug, theme, themeDescription, editionNumber, month }
+    }`;
+
+    const result = await sanityClient.fetch(
+      query,
+      { id, draftId: `drafts.${cleanId}`, cleanId },
+      { cache: 'no-store' }
+    );
+    return result || null;
+  } catch (error) {
+    console.error('Failed to fetch draft post by ID:', error);
+    return null;
+  }
+};
+
